@@ -8,9 +8,6 @@ const rerender = () => {
   // https://github.com/i18next/jquery-i18next#usage-of-selector-function
   $("body").localize();
   $("title").text($.t("index.welcomeTo"));
-  //   document.querySelector('[data-i18n="index.description"]').innerHTML = $.t(
-  //     "index.description"
-  //   ).replace(/\n/g, "<br>");
 };
 
 $(function () {
@@ -34,6 +31,15 @@ $(function () {
                 description: `Size en iyi çözümleri sunmak için titizlikle çalışıyor ve teknenizin en iyi durumda kalmasını sağlamak için elimizden geleni yapıyoruz. İster küçük bir onarım olsun, ister kapsamlı bir bakım veya boyama işlemi, uzmanlığımızı ve profesyonel yaklaşımımızı her adımda göreceksiniz.`,
                 getStarted: "Başlayalım",
               },
+              site: {
+                home: "ANA SAYFA",
+                about: "HAKKIMIZDA",
+                services: "HİZMETLER",
+                projects: "PROJELER",
+                blog: "BLOG",
+                contact: "İLETİŞİM",
+                language: "DİL",
+              },
             },
           },
           en: {
@@ -42,6 +48,15 @@ $(function () {
                 welcomeTo: "Welcome to TescoMarine",
                 description: `We work meticulously to provide you with the best solutions and make every effort to keep your boat in optimal condition. Whether it's a minor repair, comprehensive maintenance, or painting job, you will experience our expertise and professional approach at every step.`,
                 getStarted: "Get Started",
+              },
+              site: {
+                home: "HOME",
+                about: "ABOUT",
+                services: "SERVICES",
+                projects: "PROJECTS",
+                blog: "BLOG",
+                contact: "CONTACT",
+                language: "LANGUAGE",
               },
             },
           },
@@ -53,22 +68,13 @@ $(function () {
         // https://github.com/i18next/jquery-i18next#initialize-the-plugin
         jqueryI18next.init(i18next, $, { useOptionsAttr: true });
 
-        // fill language switcher
-        Object.keys(lngs).map((lng) => {
-          const opt = new Option(lngs[lng].nativeName, lng);
-          if (lng === i18next.resolvedLanguage) {
-            opt.setAttribute("selected", "selected");
-          }
-          $("#languageSwitcher").append(opt);
-        });
-        $("#languageSwitcher").change((a, b, c) => {
-          const chosenLng = $(this).find("option:selected").attr("value");
-          i18next.changeLanguage(chosenLng, () => {
-            rerender();
-          });
-        });
-
         rerender();
       }
     );
 });
+
+function setLanguage(lng) {
+  i18next.changeLanguage(lng, () => {
+    rerender();
+  });
+}

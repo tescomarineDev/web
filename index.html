@@ -52,7 +52,7 @@
       >
         <a href="index.html" class="logo d-flex align-items-center">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <h1>TescoMarine<span>.</span></h1>
+          <h1>TescoMarine</h1>
         </a>
 
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -62,16 +62,13 @@
             <li>
               <a href="index.html" class="active" data-i18n="site.home"></a>
             </li>
-            <li><a href="" data-i18n="site.about"></a></li>
-            <!-- about.html -->
-            <li><a href="" data-i18n="site.services"></a></li>
-            <!-- services.html -->
-            <li><a href="" data-i18n="site.projects"></a></li>
+            <li><a href="./about.html" data-i18n="site.about"></a></li>
+            <li><a href="./services.html" data-i18n="site.services"></a></li>
+            <!-- <li><a href="" data-i18n="site.projects"></a></li> -->
             <!-- projects.html -->
-            <li><a href="" data-i18n="site.blog"></a></li>
+            <!-- <li><a href="" data-i18n="site.blog"></a></li> -->
             <!-- blog.html -->
-            <li><a href="" data-i18n="site.contact"></a></li>
-            <!-- contact.html -->
+            <li><a href="./contact.html" data-i18n="site.contact"></a></li>
             <li class="dropdown">
               <a href=""
                 ><span data-i18n="site.language"></span>
@@ -195,18 +192,9 @@
           <div class="row justify-content-between gy-4">
             <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
               <div class="content">
-                <h3>Sorununuz için bizimle iletişime geçin.</h3>
-                <p>
-                  Teknenizle ilgili bir sorununuz mu var? TescoMarine; bakım,
-                  onarım, tamirat; sistem yenileme; gözlem; iç dış döşeme
-                  tasarım ve dekorasyon hizmetleriyle birlikte her türlü boya
-                  uygulamaları ile sizlerin hizmetinde.
-                </p>
-                <p>
-                  Formu doldurarak bizimle iletişime geçebilirsiniz. Sorununuz
-                  hakkında bilgi vermeniz bize yardımcı olacaktır. En kısa
-                  sürede sizinle iletişime geçeceğiz.
-                </p>
+                <h3 data-i18n="contact.sendYourProblem"></h3>
+                <p data-i18n="contact.explanation1"></p>
+                <p data-i18n="contact.explanation1"></p>
               </div>
             </div>
 
@@ -216,63 +204,63 @@
                 method="post"
                 class="php-email-form"
               >
-                <h3>İLETİŞİM FORMU</h3>
-                <p>Tüm bilgilerinizi eksiksiz ve doğru bir şekilde doldurun.</p>
+                <h3 data-i18n="contact.form"></h3>
+                <p data-i18n="contact.fillAllAreas"></p>
 
-                <p>
-                  Lütfen sorunu olabildiğince detaylı anlatın. En kısa sürede
-                  sizinle iletişime geçeceğiz.
-                </p>
+                <p data-i18n="contact.giveDetails"></p>
                 <div class="row gy-3">
                   <div class="col-md-12">
                     <input
+                      id="nameInp"
                       type="text"
                       name="name"
                       class="form-control"
-                      placeholder="İsim"
                       required
                     />
                   </div>
 
                   <div class="col-md-12">
                     <input
+                      id="emailInp"
                       type="email"
                       class="form-control"
                       name="email"
-                      placeholder="E-posta"
                       required
                     />
                   </div>
 
                   <div class="col-md-12">
                     <input
+                      id="phoneInp"
                       type="text"
                       class="form-control"
                       name="phone"
-                      placeholder="Telefon"
                       required
                     />
                   </div>
 
                   <div class="col-md-12">
                     <textarea
+                      id="messageInp"
                       class="form-control"
                       name="message"
                       rows="6"
-                      placeholder="Sorun açıklaması"
                       required
                     ></textarea>
                   </div>
 
                   <div class="col-md-12 text-center">
-                    <div class="loading">Yükleniyor</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
-                      Bizi tercih ettiğiniz için teşekkür ederiz. En kısa sürede
-                      sizinle iletişime geçeceğiz.
-                    </div>
+                    <div class="loading" data-i18n="misc.loading"></div>
+                    <div
+                      class="error-message"
+                      data-i18n="contact.errorSending"
+                    ></div>
+                    <div
+                      class="sent-message"
+                      data-i18n="contact.tyForSending"
+                    ></div>
 
-                    <button type="submit">Gönder</button>
+                    <button type="submit" data-i18n="misc.send"></button>
                   </div>
                 </div>
               </form>
@@ -287,11 +275,8 @@
       <section id="constructions" class="constructions">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
-            <h2>Tekne & Yat İşleri</h2>
-            <p>
-              Deneyimli ve uzman kadromuzla birlikte, teknenizdeki tüm sorunlar
-              için sizlere hizmet vermekteyiz. Uygulamalarımızdan bazıları:
-            </p>
+            <h2 data-i18n="services.boatJobs"></h2>
+            <p data-i18n="services.explanation"></p>
           </div>
 
           <div class="row gy-4">
@@ -308,12 +293,8 @@
                   </div>
                   <div class="col-xl-7 d-flex align-items-center">
                     <div class="card-body">
-                      <h4 class="card-title">Onarım İşlemleri</h4>
-                      <p>
-                        Rutin veya acil onarım; elektrik, elektronik, mekanik,
-                        motor onarımlarıyla birlikte şişme bot ve motorlarının
-                        onarımları.
-                      </p>
+                      <h4 class="card-title" data-i18n="services.repair"></h4>
+                      <p data-i18n="services.repairExpShort"></p>
                     </div>
                   </div>
                 </div>
@@ -334,12 +315,11 @@
                   </div>
                   <div class="col-xl-7 d-flex align-items-center">
                     <div class="card-body">
-                      <h4 class="card-title">Bakım İşlemleri</h4>
-                      <p>
-                        Tekne bakım işlemleri ve tekne bakımı ile ilgili
-                        hizmetler. Elektrik ve elektronik bakımları, dizel ve
-                        benzin motor bakımları, hidrolik sistemlerin bakımları.
-                      </p>
+                      <h4
+                        class="card-title"
+                        data-i18n="services.maintenance"
+                      ></h4>
+                      <p data-i18n="services.maintenanceExpShort"></p>
                     </div>
                   </div>
                 </div>
@@ -360,14 +340,8 @@
                   </div>
                   <div class="col-xl-7 d-flex align-items-center">
                     <div class="card-body">
-                      <h4 class="card-title">Proje Tasarım ve Montaj</h4>
-                      <p>
-                        Tekne ve yatlarınız için proje tasarım ve montaj
-                        hizmetleri. Elektrik ve elektronik proje tasarımı,
-                        imalatı ve montajı; hidrolik ve mekanik proje tasarımı,
-                        imalat ve montajıyla birlikte hidrolik sistem arge
-                        tasarım.
-                      </p>
+                      <h4 class="card-title" data-i18n="services.project"></h4>
+                      <p data-i18n="services.projectExpShort"></p>
                     </div>
                   </div>
                 </div>
@@ -388,12 +362,11 @@
                   </div>
                   <div class="col-xl-7 d-flex align-items-center">
                     <div class="card-body">
-                      <h4 class="card-title">Yenileme Projeleri</h4>
-                      <p>
-                        Tekne yenileme projeleri ve yat yenileme projeleri ile
-                        ilgili hizmetler. Hidrolik sistem yenileme; modifikasyon
-                        ve sistem yenileme projeleri.
-                      </p>
+                      <h4
+                        class="card-title"
+                        data-i18n="services.renovation"
+                      ></h4>
+                      <p data-i18n="services.renovationExpShort"></p>
                     </div>
                   </div>
                 </div>
@@ -409,14 +382,8 @@
       <section id="services" class="services section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
-            <h2>Hizmetlerimiz</h2>
-            <p>
-              TescoMarine olarak tekne bakım hizmetleri, tekne onarım
-              hizmetleri, yenileme hizmetleri; proje tasarımı, imalat ve montaj
-              hizmetleri, hidrolik sistem arge tasarımı ve hidrolik sistem bakım
-              hizmetleri ile satış; şişme bot ve motor bakım ve onarımı;
-              dekorasyon ve boya hizmetleri sunmaktayız.
-            </p>
+            <h2 data-i18n="services.services"></h2>
+            <p data-i18n="services.servicesExpShort"></p>
           </div>
 
           <div class="row gy-4">
@@ -430,15 +397,18 @@
                   <i class="fa-solid fa-mountain-city"></i>
                 </div>
                 <h3>Bakım</h3>
-                <p>
-                  Provident nihil minus qui consequatur non omnis maiores. Eos
-                  accusantium minus dolores iure perferendis tempore et
-                  consequatur.
-                </p>
+                <ul>
+                  <li>Elektrik ve elektronik sistem bakımları</li>
+                  <li>Dizel ve benzin motorların bakımlar</li>
+                  <li>Hidrolik sistem bakımları</li>
+                  <li>Yıllık bakım ve gözlem</li>
+                  <li>Jeneratör, güç sistemleri bakımı</li>
+                  <li>Şişme bot ve motorların bakımları</li>
+                </ul>
                 <!-- service-details.html -->
-                <a href="#" class="readmore stretched-link"
-                  >Learn more <i class="bi bi-arrow-right"></i
-                ></a>
+                <!-- <a href="#" class="readmore stretched-link"
+                    >Learn more <i class="bi bi-arrow-right"></i
+                        ></a> -->
               </div>
             </div>
             <!-- End Service Item -->
@@ -453,14 +423,18 @@
                   <i class="fa-solid fa-arrow-up-from-ground-water"></i>
                 </div>
                 <h3>Onarım</h3>
-                <p>
-                  Ut autem aut autem non a. Sint sint sit facilis nam iusto
-                  sint. Libero corrupti neque eum hic non ut nesciunt dolorem.
-                </p>
+                <ul>
+                  <li>Elektronik kart onarımı</li>
+                  <li>Dizel ve benzin motorların onarımları</li>
+                  <li>Hidrolik sistem onarımları</li>
+                  <li>Jeneratör, güç sistemleri bakımı</li>
+                  <li>Şişme bot ve motorların bakımları</li>
+                  <li>Yelken yapımı ve onarımı</li>
+                </ul>
                 <!-- service-details.html -->
-                <a href="#" class="readmore stretched-link"
+                <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
             <!-- End Service Item -->
@@ -474,14 +448,18 @@
                 <div class="icon">
                   <i class="fa-solid fa-compass-drafting"></i>
                 </div>
-                <h3>Yenileme</h3>
-                <p>
-                  Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.
-                  Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.
-                </p>
-                <a href="#" class="readmore stretched-link"
+                <h3>Proje</h3>
+                <ul>
+                  <li>Hidrolik sistem arge tasarım</li>
+                  <li>Elektrik ve elektronik yeni proje tasarımı</li>
+                  <li>Elektrik ve elektronik proje imalat ve montajı</li>
+                  <li>Hidrolik ve mekanik yeni proje tasarımı</li>
+                  <li>Hidrolik ve mekanik proje imalat ve montajı</li>
+                </ul>
+
+                <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
             <!-- End Service Item -->
@@ -495,14 +473,14 @@
                 <div class="icon">
                   <i class="fa-solid fa-trowel-bricks"></i>
                 </div>
-                <h3>Proje</h3>
-                <p>
-                  Non et temporibus minus omnis sed dolor esse consequatur.
-                  Cupiditate sed error ea fuga sit provident adipisci neque.
-                </p>
-                <a href="#" class="readmore stretched-link"
+                <h3>Yenileme</h3>
+                <ul>
+                  <li>Hidrolik sistem yenilemesi</li>
+                  <li>Modifikasyon ve sistem yenileme işlemleri</li>
+                </ul>
+                <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
             <!-- End Service Item -->
@@ -517,13 +495,12 @@
                   <i class="fa-solid fa-helmet-safety"></i>
                 </div>
                 <h3>Satış</h3>
-                <p>
-                  Cumque et suscipit saepe. Est maiores autem enim facilis ut
-                  aut ipsam corporis aut. Sed animi at autem alias eius labore.
-                </p>
-                <a href="#" class="readmore stretched-link"
+                <ul>
+                  <li>Tik satışı ve uygulamaları</li>
+                </ul>
+                <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
             <!-- End Service Item -->
@@ -538,13 +515,14 @@
                   <i class="fa-solid fa-arrow-up-from-ground-water"></i>
                 </div>
                 <h3>Boya Uygulamaları ve Dekorasyon</h3>
-                <p>
-                  Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
-                  neque non et debitis iure. Corrupti recusandae ducimus enim.
-                </p>
-                <a href="#" class="readmore stretched-link"
+                <ul>
+                  <li>İç dış döşeme tasarımı</li>
+                  <li>Boya uygulamaları</li>
+                  <li>Dekorasyon hizmetleri</li>
+                </ul>
+                <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
             <!-- End Service Item -->
@@ -853,7 +831,7 @@
       <!-- End Features Section -->
 
       <!-- ======= Our Projects Section ======= -->
-      <section id="projects" class="projects">
+      <!-- <section id="projects" class="projects">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Projelerimiz</h2>
@@ -880,10 +858,10 @@
               <li data-filter=".filter-refurbish">Yenileme</li>
               <li data-filter=".filter-project">Proje</li>
               <li data-filter=".filter-decoration">Dekorasyon & Boya</li>
-            </ul>
-            <!-- End Projects Filters -->
+            </ul> -->
+      <!-- End Projects Filters -->
 
-            <div
+      <!-- <div
               class="row gy-4 portfolio-container"
               data-aos="fade-up"
               data-aos-delay="200"
@@ -897,26 +875,26 @@
                   />
                   <div class="portfolio-info">
                     <h4>Bakım 1</h4>
-                    <p>Bakım işlemi 1</p>
-                    <!-- <a
+                    <p>Bakım işlemi 1</p> -->
+      <!-- <a
                       href="assets/img/projects/remodeling-1.jpg"
                       title="Remodeling 1"
                       data-gallery="portfolio-gallery-remodeling"
                       class="glightbox preview-link"
                       ></a>  -->
-                    <i class="bi bi-zoom-in"></i>
-                    <!-- <a
+      <!-- <i class="bi bi-zoom-in"></i> -->
+      <!-- <a
                       href="project-details.html"
                       title="More Details"
                       class="details-link"
                       ></a> -->
-                    ><i class="bi bi-link-45deg"></i>
+      <!-- ><i class="bi bi-link-45deg"></i>
                   </div>
                 </div>
-              </div>
-              <!-- End Projects Item -->
+              </div> -->
+      <!-- End Projects Item -->
 
-              <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+      <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
                 <div class="portfolio-content h-100">
                   <img
                     src="assets/img/projects/repair-2.jpeg"
@@ -925,8 +903,8 @@
                   />
                   <div class="portfolio-info">
                     <h4>Onarım 1</h4>
-                    <p>Onarım işlemi 1</p>
-                    <!-- <a
+                    <p>Onarım işlemi 1</p> -->
+      <!-- <a
                       href="assets/img/projects/construction-1.jpg"
                       title="Construction 1"
                       data-gallery="portfolio-gallery-construction"
@@ -939,12 +917,12 @@
                       class="details-link"
                       ><i class="bi bi-link-45deg"></i
                     ></a> -->
-                  </div>
+      <!-- </div>
                 </div>
-              </div>
-              <!-- End Projects Item -->
+              </div> -->
+      <!-- End Projects Item -->
 
-              <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+      <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
                 <div class="portfolio-content h-100">
                   <img
                     src="assets/img/projects/repair-3.jpeg"
@@ -953,8 +931,8 @@
                   />
                   <div class="portfolio-info">
                     <h4>Onarım 2</h4>
-                    <p>Onarım işlemi 2</p>
-                    <!-- <a
+                    <p>Onarım işlemi 2</p> -->
+      <!-- <a
                       href="assets/img/projects/repair-3.jpeg"
                       title="Repairs 1"
                       data-gallery="portfolio-gallery-repairs"
@@ -967,11 +945,11 @@
                       class="details-link"
                       ><i class="bi bi-link-45deg"></i
                     ></a> -->
-                  </div>
+      <!-- </div>
                 </div>
-              </div>
-              <!-- End Projects Item -->
-
+              </div> -->
+      <!-- End Projects Item -->
+      <!-- 
               <div class="col-lg-4 col-md-6 portfolio-item filter-maintenance">
                 <div class="portfolio-content h-100">
                   <img
@@ -981,8 +959,8 @@
                   />
                   <div class="portfolio-info">
                     <h4>Bakım 2</h4>
-                    <p>Bakım işlemi 2</p>
-                    <!-- <a
+                    <p>Bakım işlemi 2</p> -->
+      <!-- <a
                       href="assets/img/projects/design-1.jpg"
                       title="Repairs 1"
                       data-gallery="portfolio-gallery-book"
@@ -995,12 +973,12 @@
                       class="details-link"
                       ><i class="bi bi-link-45deg"></i
                     ></a> -->
-                  </div>
+      <!-- </div>
                 </div>
-              </div>
-              <!-- End Projects Item -->
+              </div> -->
+      <!-- End Projects Item -->
 
-              <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+      <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
                 <div class="portfolio-content h-100">
                   <img
                     src="assets/img/projects/remodeling-2.jpg"
@@ -1026,9 +1004,9 @@
                   </div>
                 </div>
               </div> -->
-              <!-- End Projects Item -->
+      <!-- End Projects Item -->
 
-              <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+      <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
                 <div class="portfolio-content h-100">
                   <img
                     src="assets/img/projects/construction-2.jpg"
@@ -1054,9 +1032,9 @@
                   </div>
                 </div>
               </div> -->
-              <!-- End Projects Item -->
+      <!-- End Projects Item -->
 
-              <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+      <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
                 <div class="portfolio-content h-100">
                   <img
                     src="assets/img/projects/repairs-2.jpg"
@@ -1082,8 +1060,8 @@
                   </div>
                 </div>
               </div> -->
-              <!-- End Projects Item -->
-              <!-- 
+      <!-- End Projects Item -->
+      <!-- 
               <div class="col-lg-4 col-md-6 portfolio-item filter-design">
                 <div class="portfolio-content h-100">
                   <img
@@ -1110,8 +1088,8 @@
                   </div>
                 </div>
               </div> -->
-              <!-- End Projects Item -->
-              <!-- 
+      <!-- End Projects Item -->
+      <!-- 
               <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
                 <div class="portfolio-content h-100">
                   <img
@@ -1138,9 +1116,9 @@
                   </div>
                 </div>
               </div> -->
-              <!-- End Projects Item -->
+      <!-- End Projects Item -->
 
-              <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+      <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
                 <div class="portfolio-content h-100">
                   <img
                     src="assets/img/projects/construction-3.jpg"
@@ -1166,9 +1144,9 @@
                   </div>
                 </div>
               </div> -->
-              <!-- End Projects Item -->
+      <!-- End Projects Item -->
 
-              <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+      <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
                 <div class="portfolio-content h-100">
                   <img
                     src="assets/img/projects/repairs-3.jpg"
@@ -1194,9 +1172,9 @@
                   </div>
                 </div>
               </div> -->
-              <!-- End Projects Item -->
+      <!-- End Projects Item -->
 
-              <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+      <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-design">
                 <div class="portfolio-content h-100">
                   <img
                     src="assets/img/projects/design-3.jpg"
@@ -1222,16 +1200,16 @@
                   </div>
                 </div>
               </div> -->
-              <!-- End Projects Item -->
-            </div>
-            <!-- End Projects Container -->
-          </div>
+      <!-- End Projects Item -->
+      <!-- </div> -->
+      <!-- End Projects Container -->
+      <!-- </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Our Projects Section -->
 
       <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials section-bg">
+      <!-- <section id="testimonials" class="testimonials section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Müşterilerimizden Yorumlar</h2>
@@ -1270,10 +1248,10 @@
                     </p>
                   </div>
                 </div>
-              </div>
-              <!-- End testimonial item -->
+              </div> -->
+      <!-- End testimonial item -->
 
-              <div class="swiper-slide">
+      <!-- <div class="swiper-slide">
                 <div class="testimonial-wrap">
                   <div class="testimonial-item">
                     <img
@@ -1302,37 +1280,35 @@
                 </div>
               </div>
               <!-- End testimonial item -->
+      <!-- 
+      <div class="swiper-slide">
+        <div class="testimonial-wrap">
+          <div class="testimonial-item">
+            <img
+              src="assets/img/testimonials/testimonials-3.jpg"
+              class="testimonial-img"
+              alt=""
+            />
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              Enim nisi quem export duis labore cillum quae magna enim sint
+              quorum nulla quem veniam duis minim tempor labore quem eram duis
+              noster aute amet eram fore quis sint minim.
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+      </div> -->
+      <!-- End testimonial item -->
 
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img
-                      src="assets/img/testimonials/testimonials-3.jpg"
-                      class="testimonial-img"
-                      alt=""
-                    />
-                    <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
-                    <div class="stars">
-                      <i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i
-                      ><i class="bi bi-star-fill"></i>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      Enim nisi quem export duis labore cillum quae magna enim
-                      sint quorum nulla quem veniam duis minim tempor labore
-                      quem eram duis noster aute amet eram fore quis sint minim.
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
+      <!-- <div class="swiper-slide">
                 <div class="testimonial-wrap">
                   <div class="testimonial-item">
                     <img
@@ -1359,9 +1335,9 @@
                     </p>
                   </div>
                 </div>
-              </div>
-              <!-- End testimonial item -->
-
+              </div> -->
+      <!-- End testimonial item -->
+      <!-- 
               <div class="swiper-slide">
                 <div class="testimonial-wrap">
                   <div class="testimonial-item">
@@ -1389,13 +1365,13 @@
                     </p>
                   </div>
                 </div>
-              </div>
-              <!-- End testimonial item -->
-            </div>
+              </div> -->
+      <!-- End testimonial item -->
+      <!-- </div>
             <div class="swiper-pagination"></div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Testimonials Section -->
 
       <!-- ======= Recent Blog Posts Section ======= -->
@@ -1403,12 +1379,12 @@
         <div class="container" data-aos="fade-up"">
 
         <div class="section-header">
-          <h2>Son Blog Yazıları</h2>
+          <h2>Blog Yazıları</h2>
           <p>
             Yıllardan süregelen sektör bilgimizi ve tecrübemizi sizlerle
             paylaşmaya devam ediyoruz. Sizler için hazırladığımız blog
-            yazılarımızı okuyarak, sektör hakkında; son gelişmeler ve yenilikler
-            hakkında bilgi sahibi olabilirsiniz.
+            yazılarımızı okuyarak, sektör; son gelişmeler ve yenilikler hakkında
+            bilgi sahibi olabilirsiniz.
           </p>
         </div>
 
@@ -1421,27 +1397,25 @@
             <div class="post-item position-relative h-100">
               <div class="post-img position-relative overflow-hidden">
                 <img
-                  src="assets/img/blog/blog-1.jpg"
+                  src="assets/img/blog/coming_soon.jpg"
                   class="img-fluid"
                   alt=""
                 />
-                <span class="post-date">December 12</span>
+                <span class="post-date">-</span>
               </div>
 
               <div class="post-content d-flex flex-column">
-                <h3 class="post-title">
-                  Eum ad dolor et. Autem aut fugiat debitis
-                </h3>
+                <h3 class="post-title">Blog yazılarımız yakında sizlerle</h3>
 
                 <div class="meta d-flex align-items-center">
                   <div class="d-flex align-items-center">
                     <i class="bi bi-person"></i>
-                    <span class="ps-2">Julia Parker</span>
+                    <span class="ps-2">-</span>
                   </div>
                   <span class="px-3 text-black-50">/</span>
                   <div class="d-flex align-items-center">
                     <i class="bi bi-folder2"></i>
-                    <span class="ps-2">Politics</span>
+                    <span class="ps-2">-</span>
                   </div>
                 </div>
 
@@ -1455,7 +1429,7 @@
           </div>
           <!-- End post item -->
 
-          <div
+          <!-- <div
             class="col-xl-4 col-md-6"
             data-aos="fade-up"
             data-aos-delay="200"
@@ -1489,15 +1463,15 @@
 
                 <hr />
 
-                <!-- <a href="blog-details.html" class="readmore stretched-link"
+                <a href="blog-details.html" class="readmore stretched-link"
                   ><span>Read More</span><i class="bi bi-arrow-right"></i
-                ></a> -->
+                ></a>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- End post item -->
 
-          <div class="col-xl-4 col-md-6">
+          <!-- <div class="col-xl-4 col-md-6">
             <div
               class="post-item position-relative h-100"
               data-aos="fade-up"
@@ -1531,12 +1505,12 @@
 
                 <hr />
 
-                <!-- <a href="blog-details.html" class="readmore stretched-link"
+                <a href="blog-details.html" class="readmore stretched-link"
                   ><span>Read More</span><i class="bi bi-arrow-right"></i
-                ></a> -->
+                ></a>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- End post item -->
         </div>
       </section>
@@ -1594,29 +1568,32 @@
               <h4>Yararlı Linkler</h4>
               <ul>
                 <li><a href="#">Ana Sayfa</a></li>
-                <li><a href="#">Hakkımızda</a></li>
-                <li><a href="#">Hizmetler</a></li>
-                <li><a href="#">Projeler</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="./about.html">Hakkımızda</a></li>
+                <li><a href="./services.html">Hizmetler</a></li>
+                <!-- <li><a href="#">Projeler</a></li> -->
+                <!-- <li><a href="#">Blog</a></li> -->
                 <li><a href="#">İletişim</a></li>
               </ul>
             </div>
             <!-- End footer links column-->
 
-            <div class="col-lg-2 col-md-3 footer-links">
+            <div class="col-lg-4 col-md-8 footer-links">
               <h4>Hizmetlerimiz</h4>
-              <ul>
-                <li><a href="#">Bakım</a></li>
-                <li><a href="#">Onarım</a></li>
-                <li><a href="#">Yenileme</a></li>
-                <li><a href="#">Proje</a></li>
-                <li><a href="#">Satış</a></li>
-                <li><a href="#">Boya Uygulamaları ve Dekorasyon</a></li>
+              <ul class="grayed-out">
+                <li>Bakım</li>
+                <li>Onarım</li>
+                <li>Yenileme</li>
+              </ul>
+              <ul class="grayed-out" style="float: right">
+                <li>Proje</li>
+                <li>Satış</li>
+                <li>Boya Uygulamaları ve Dekorasyon</li>
               </ul>
             </div>
+
             <!-- End footer links column-->
 
-            <div class="col-lg-2 col-md-3 footer-links">
+            <!-- <div class="col-lg-2 col-md-3 footer-links">
               <h4>Hic solutasetp</h4>
               <ul>
                 <li><a href="#">Molestiae accusamus iure</a></li>
@@ -1625,10 +1602,10 @@
                 <li><a href="#">Dilecta</a></li>
                 <li><a href="#">Sit quas consectetur</a></li>
               </ul>
-            </div>
+            </div> -->
             <!-- End footer links column-->
 
-            <div class="col-lg-2 col-md-3 footer-links">
+            <!-- <div class="col-lg-2 col-md-3 footer-links">
               <h4>Nobis illum</h4>
               <ul>
                 <li><a href="#">Ipsam</a></li>
@@ -1637,7 +1614,7 @@
                 <li><a href="#">Trodelas</a></li>
                 <li><a href="#">Flexo</a></li>
               </ul>
-            </div>
+            </div> -->
             <!-- End footer links column-->
           </div>
         </div>

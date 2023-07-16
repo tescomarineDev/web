@@ -1951,6 +1951,7 @@ section {
 
 .hero .info .btn-get-started:hover {
   background: var(--color-primary);
+  transition: 1s;
 }
 
 .hero .carousel-control-prev {

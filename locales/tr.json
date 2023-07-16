@@ -1,7 +1,7 @@
 {
   "translation": {
     "index": {
-      "welcomeTo": "TescoMarine'e hoşgeldiniz",
+      "welcomeTo": "Tescomarine'e hoşgeldiniz",
       "description": "Size en iyi çözümleri sunmak için titizlikle çalışıyor ve teknenizin en iyi durumda kalmasını sağlamak için elimizden geleni yapıyoruz. İster küçük bir onarım olsun, ister kapsamlı bir bakım veya boyama işlemi, uzmanlığımızı ve profesyonel yaklaşımımızı her adımda göreceksiniz.",
       "getStarted": "Başlayalım"
     },
@@ -16,7 +16,7 @@
     },
     "contact": {
       "sendYourProblem": "Sorununuz için bizimle iletişime geçin.",
-      "explanation1": "Teknenizle ilgili bir sorununuz mu var? TescoMarine; bakım, onarım, tamirat; sistem yenileme; gözlem; iç dış döşeme tasarım ve dekorasyon hizmetleriyle birlikte her türlü boya uygulamaları ile sizlerin hizmetinde.",
+      "explanation1": "Teknenizle ilgili bir sorununuz mu var? Tescomarine; bakım, onarım, tamirat; sistem yenileme; gözlem; iç dış döşeme tasarım ve dekorasyon hizmetleriyle birlikte her türlü boya uygulamaları ile sizlerin hizmetinde.",
       "explanation2": "Formu doldurarak bizimle iletişime geçebilirsiniz. Sorununuz hakkında bilgi vermeniz bize yardımcı olacaktır. En kısa sürede sizinle iletişime geçeceğiz.",
       "form": "İletişim Formu",
       "fillAllAreas": "Tüm bilgilerinizi eksiksiz ve doğru bir şekilde doldurun.",
@@ -30,7 +30,7 @@
     },
     "services": {
       "services": "Hizmetlerimiz",
-      "servicesExpShort": "TescoMarine olarak tekne bakım hizmetleri, tekne onarım hizmetleri, yenileme hizmetleri; proje tasarımı, imalat ve montaj hizmetleri, hidrolik sistem arge tasarımı ve hidrolik sistem bakım hizmetleri ile satış; şişme bot ve motor bakım ve onarımı; dekorasyon ve boya hizmetleri sunmaktayız.",
+      "servicesExpShort": "Tescomarine olarak tekne bakım hizmetleri, tekne onarım hizmetleri, yenileme hizmetleri; proje tasarımı, imalat ve montaj hizmetleri, hidrolik sistem arge tasarımı ve hidrolik sistem bakım hizmetleri ile satış; şişme bot ve motor bakım ve onarımı; dekorasyon ve boya hizmetleri sunmaktayız.",
       "boatJobs": "Tekne ve Yat İşleri",
       "explanation": "Deneyimli ve uzman kadromuzla birlikte, teknenizdeki tüm sorunlar için sizlere hizmet  Uygulamalarımızdan bazıları",
       "repair": "Onarım İşlemleri",

@@ -35,7 +35,7 @@ $(function () {
           tr: {
             translation: {
               index: {
-                welcomeTo: "TescoMarine'e hoşgeldiniz",
+                welcomeTo: "Tescomarine'e hoşgeldiniz",
                 description:
                   "Size en iyi çözümleri sunmak için titizlikle çalışıyor ve teknenizin en iyi durumda kalmasını sağlamak için elimizden geleni yapıyoruz. İster küçük bir onarım olsun, ister kapsamlı bir bakım veya boyama işlemi, uzmanlığımızı ve profesyonel yaklaşımımızı her adımda göreceksiniz.",
                 getStarted: "Başlayalım",
@@ -59,7 +59,7 @@ $(function () {
               contact: {
                 sendYourProblem: "Sorununuz için bizimle iletişime geçin.",
                 explanation1:
-                  "Teknenizle ilgili bir sorununuz mu var? TescoMarine; bakım, onarım, tamirat; sistem yenileme; gözlem; iç dış döşeme tasarım ve dekorasyon hizmetleriyle birlikte her türlü boya uygulamaları ile sizlerin hizmetinde.",
+                  "Teknenizle ilgili bir sorununuz mu var? Tescomarine; bakım, onarım, tamirat; sistem yenileme; gözlem; iç dış döşeme tasarım ve dekorasyon hizmetleriyle birlikte her türlü boya uygulamaları ile sizlerin hizmetinde.",
                 explanation2:
                   "Formu doldurarak bizimle iletişime geçebilirsiniz. Sorununuz hakkında bilgi vermeniz bize yardımcı olacaktır. En kısa sürede sizinle iletişime geçeceğiz.",
                 form: "İLETİŞİM FORMU",
@@ -81,7 +81,7 @@ $(function () {
               services: {
                 services: "Hizmetlerimiz",
                 servicesExpShort:
-                  "TescoMarine olarak tekne bakım hizmetleri, tekne onarım hizmetleri, yenileme hizmetleri; proje tasarımı, imalat ve montaj hizmetleri, hidrolik sistem arge tasarımı ve hidrolik sistem bakım hizmetleri ile satış; şişme bot ve motor bakım ve onarımı; dekorasyon ve boya hizmetleri sunmaktayız.",
+                  "Tescomarine olarak tekne bakım hizmetleri, tekne onarım hizmetleri, yenileme hizmetleri; proje tasarımı, imalat ve montaj hizmetleri, hidrolik sistem arge tasarımı ve hidrolik sistem bakım hizmetleri ile satış; şişme bot ve motor bakım ve onarımı; dekorasyon ve boya hizmetleri sunmaktayız.",
                 boatJobs: "Tekne ve Yat İşleri",
                 explanation:
                   "Deneyimli ve uzman kadromuzla birlikte, teknenizdeki tüm sorunlar için sizlere hizmet vermekteyiz. Uygulamalarımızdan bazıları:",
@@ -175,16 +175,16 @@ $(function () {
               about: {
                 successStoryTitle: "Başarı Hikayemiz",
                 successStory:
-                  "Denizcilik sektörüne 2019 yılında giriş yapan firmamız, başlangıçta yat ve tekne bakım, onarım, dekorasyon, proje yapımı ve boyama hizmet vermeye başlamıştır.",
+                  "Tescomarine sürekli hizmet anlayışından ödün vermeden kadrosunu güçlü tutarak başarılı çalışmalarına devam etmektedir. Deniz üzerindeki özgürlüğünüzün konforlu ve güvenli olması adına sizler için son teknolojik sistemleri uyguluyoruz.",
                 successStory2:
-                  "Müşterilerimizden aldığımız olumlu geri dönüşler, kalite anlayışımızın getirdiği başarı ve müşteri memnuniyeti odaklı çalışma prensibimiz sayesinde kısa sürede sektörde tanınan bir firma hâline gelmiştir.",
-                successStory3: "Biz:",
-                step1: "Teknenize uygun çözümler üretiriz.",
-                step2: "Her aşamada sizinle iletişim hâlinde oluruz.",
-                step3: "Gerekli kontrol ve uygulamaları titizlikle yaparız.",
-                step4: "İşimizi zamanında ve eksiksiz teslim ederiz.",
-                successStory4:
-                  "Tekneniz sizin için ne kadar önemliyse, yaptığımız işler de bizim için o kadar önemlidir. Bu nedenle, işimizi en iyi şekilde yapmak için elimizden geleni yaparız.",
+                  "Yelkenli ve motor yatların servis, bakım, refit işlemleri tecrübeli ve konusunda eğitimli ekibimiz tarafından başarı ile uygulamaktadır.",
+                successStory3: "Misyonumuz:",
+                step1:
+                  "Toplam Kalite felsefesini esas alarak takım ruhu içinde şirket ve birim hedeflerine ulaşmak için çalışmak ve her daim gelişime, yeniliğe açık olmak.",
+                step2:
+                  "Üstlenmiş olduğumuz projelerde müşteri taleplerini doğru algılamak, müşteri isteklerini doğru yönlendirmek ve bu isteklere maksimum düzeyde uymak.",
+                step3:
+                  "Projeleri iş programına ve teknik şartnamelere uygun olarak zamanında bitirmek ve teslim etmek..",
                 watchOurVideo: "Videomuzu izleyin",
                 happyClients: "Mutlu Müşteri",
                 projectAndProcess: "Proje ve İşlem",
@@ -197,14 +197,14 @@ $(function () {
                   "Takımımız deneyimli ve uzman kişilerden oluşmaktadır. Alanlarında uzmanlaşmış ekip üyelerimizle sürekli kendimizi geliştiriyoruz ve size en iyi hizmeti sunmayı hedefliyoruz.",
                 ctos: "Kurucu, CEO",
                 zaferErdemExp:
-                  "Zafer Erdem, denizcilik sektöründe uzun yıllardır faaliyet gösteren bir isimdir. 2019 yılından bu yana tekne ve yat bakımı, onarımı, dekorasyonu, proje inşası ve boyama konularında uzmanlaşmış olarak sektörde çalışmaktadır. TescoMarine'in kurucusu ve CEO'sudur.",
+                  "Zafer Erdem, denizcilik sektöründe uzun yıllardır faaliyet gösteren bir isimdir. 2019 yılından bu yana tekne ve yat bakımı, onarımı, dekorasyonu, proje inşası ve boyama konularında uzmanlaşmış olarak sektörde çalışmaktadır. Tescomarine'in kurucusu ve CEO'sudur.",
               },
             },
           },
           en: {
             translation: {
               index: {
-                welcomeTo: "Welcome to TescoMarine",
+                welcomeTo: "Welcome to Tescomarine",
                 description:
                   "We work meticulously to provide you with the best solutions and make every effort to keep your boat in optimal condition. Whether it's a minor repair, comprehensive maintenance, or painting job, you will experience our expertise and professional approach at every step.",
                 getStarted: "Get Started",
@@ -228,7 +228,7 @@ $(function () {
               contact: {
                 sendYourProblem: "Contact us for your problem.",
                 explanation1:
-                  "Do you have a problem with your boat? TescoMarine is at your service with maintenance, repair, renovation, system renewal, observation, interior and exterior upholstery design and decoration services, as well as all kinds of paint applications.",
+                  "Do you have a problem with your boat? Tescomarine is at your service with maintenance, repair, renovation, system renewal, observation, interior and exterior upholstery design and decoration services, as well as all kinds of paint applications.",
                 explanation2:
                   "You can contact us by filling out the form. It will be helpful for us if you provide information about your problem. We will contact you as soon as possible.",
                 form: "Contact Form",
@@ -249,7 +249,7 @@ $(function () {
               services: {
                 services: "Services",
                 servicesExpShort:
-                  "As TescoMarine, we offer boat maintenance services, boat repair services, renovation services; project design, manufacturing and installation services, hydraulic system R&D design and hydraulic system maintenance services and sales; inflatable boat and engine maintenance and repair; decoration and painting services.",
+                  "As Tescomarine, we offer boat maintenance services, boat repair services, renovation services; project design, manufacturing and installation services, hydraulic system R&D design and hydraulic system maintenance services and sales; inflatable boat and engine maintenance and repair; decoration and painting services.",
                 boatJobs: "Boat and Yacht Jobs",
                 explanation:
                   "With our experienced and expert team, we provide you with services for all the problems on your boat. Some of our applications:",
@@ -341,17 +341,16 @@ $(function () {
               about: {
                 successStoryTitle: "Our Story",
                 successStory:
-                  "Our company, which entered the maritime sector in 2019, initially started to provide boat and yacht maintenance, repair, decoration, project construction and painting services.",
+                  "Tescomarine continues its successful work by keeping its staff strong without sacrificing its continuous service understanding. In order for your freedom on the sea to be comfortable and safe, we apply the latest technological systems for you.",
                 successStory2:
-                  "Thanks to the positive feedback we received from our customers, the success brought by our quality understanding and our customer satisfaction-oriented working principle, we have become a well-known company in the sector in a short time.",
-                successStory3: "We:",
-                step1: "Produce solutions suitable for your boat.",
-                step2: "Are in constant communication with you at every stage.",
+                  "Service, maintenance, refit operations of sailing and motor yachts are successfully implemented by our experienced and trained team.",
+                successStory3: "Our mission:",
+                step1:
+                  "To work in a team spirit to achieve company and unit goals based on the Total Quality philosophy and to always be open to development and innovation.",
+                step2:
+                  "To perceive customer demands correctly in the projects we have undertaken, to direct customer requests correctly and to comply with these requests at the maximum level.",
                 step3:
-                  "Perform the necessary controls and applications with care.",
-                step4: "Deliver our work on time and complete.",
-                successStory4:
-                  "We are aware of the importance of your boat for you, and the work we do is as important to us. Therefore, we do our best to do our job in the best way possible.",
+                  "To finish and deliver projects on time in accordance with the work schedule and technical specifications.",
                 watchOurVideo: "Watch Our Video",
                 happyClients: "Happy Clients",
                 projectAndProcess: "Project and Jobs",
@@ -362,7 +361,7 @@ $(function () {
                   "Our team consists of experienced and expert people in their fields. We are constantly improving ourselves to provide you with the best service.",
                 ctos: "Founder, CEO",
                 zaferErdemExp:
-                  "Zafer Erdem, who has been in the maritime sector for many years, has been working in the sector as a boat and yacht maintenance, repair, decoration, project construction and painting specialist since 2019. He is the founder and CEO of TescoMarine.",
+                  "Zafer Erdem, who has been in the maritime sector for many years, has been working in the sector as a boat and yacht maintenance, repair, decoration, project construction and painting specialist since 2019. He is the founder and CEO of Tescomarine.",
               },
             },
           },

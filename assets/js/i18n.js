@@ -43,11 +43,11 @@ $(function () {
               site: {
                 home: "Ana Sayfa",
                 about: "Hakkımızda",
-                services: "Hi̇zmetler",
+                services: "Hizmetler",
                 projects: "Projeler",
                 blog: "Blog",
-                contact: "İleti̇şi̇m",
-                language: "Di̇l",
+                contact: "İletişim",
+                language: "Dil",
               },
               contact: {
                 sendYourProblem: "Sorununuz için bizimle iletişime geçin.",
@@ -55,7 +55,7 @@ $(function () {
                   "Teknenizle ilgili bir sorununuz mu var? TescoMarine; bakım, onarım, tamirat; sistem yenileme; gözlem; iç dış döşeme tasarım ve dekorasyon hizmetleriyle birlikte her türlü boya uygulamaları ile sizlerin hizmetinde.",
                 explanation2:
                   "Formu doldurarak bizimle iletişime geçebilirsiniz. Sorununuz hakkında bilgi vermeniz bize yardımcı olacaktır. En kısa sürede sizinle iletişime geçeceğiz.",
-                form: "İletişim Formu",
+                form: "İLETİŞİM FORMU",
                 fillAllAreas:
                   "Tüm bilgilerinizi eksiksiz ve doğru bir şekilde doldurun.",
                 giveDetails:
@@ -77,7 +77,7 @@ $(function () {
                   "TescoMarine olarak tekne bakım hizmetleri, tekne onarım hizmetleri, yenileme hizmetleri; proje tasarımı, imalat ve montaj hizmetleri, hidrolik sistem arge tasarımı ve hidrolik sistem bakım hizmetleri ile satış; şişme bot ve motor bakım ve onarımı; dekorasyon ve boya hizmetleri sunmaktayız.",
                 boatJobs: "Tekne ve Yat İşleri",
                 explanation:
-                  "Deneyimli ve uzman kadromuzla birlikte, teknenizdeki tüm sorunlar için sizlere hizmet  Uygulamalarımızdan bazıları:",
+                  "Deneyimli ve uzman kadromuzla birlikte, teknenizdeki tüm sorunlar için sizlere hizmet vermekteyiz. Uygulamalarımızdan bazıları:",
                 repairExpShort:
                   "Rutin veya acil onarım; elektrik, elektronik, mekanik, motor onarımlarıyla birlikte şişme bot ve motorlarının onarımları.",
                 maintenanceExpShort:
@@ -148,7 +148,7 @@ $(function () {
                   " Yüksek kalite standartlarına bağlı kalarak malzemeleri seçer ve işleri titizlikle tamamlarız",
                 reliability: "Güven",
                 reliabilityExp:
-                  "Müşterilerimize güven vermek için adımlarımızı atar, gizlilik ve güvenlik konusunda önemli önlemler alırız.",
+                  "Müşterilerimize güven vermek için adımlarımızı atar, işlerimizi zamanında ve güvenli bir şekilde tamamlarız",
                 customerSatisfaction: "Müşteri Memnuniyeti",
                 customerSatisfactionExp:
                   "Müşterilerimizin beklentilerini aşmak ve en iyi hizmeti sunmak için çalışırız. Müşteri memnuniyeti her zaman önceliğimizdir.",

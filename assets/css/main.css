@@ -2671,6 +2671,7 @@ section {
   display: inline-block;
   line-height: 1;
 }
+
 .footer .footer-content .footer-links .grayed-out {
   color: rgba(255, 255, 255, 0.6);
   transition: 0.3s;

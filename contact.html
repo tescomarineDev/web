@@ -117,10 +117,10 @@
           class="container position-relative d-flex flex-column align-items-center"
           data-aos="fade"
         >
-          <h2>İletişim</h2>
+          <h2 data-i18n="site.contact">İletişim</h2>
           <ol>
-            <li><a href="index.html">Ana Sayfa</a></li>
-            <li>İletişim</li>
+            <li><a href="index.html" data-i18n="site.home"></a></li>
+            <li data-i18n="site.contact"></li>
           </ol>
         </div>
       </div>
@@ -135,7 +135,7 @@
                 class="info-item d-flex flex-column justify-content-center align-items-center"
               >
                 <i class="bi bi-map"></i>
-                <h3>Adresimiz</h3>
+                <h3 data-i18n="contact.ourAddress"></h3>
                 <p>
                   Merkez mh. Kemerburgaz Cd. Buse Sk. No:10/2 Kağıthane,
                   Istanbul, Turkey
@@ -149,7 +149,7 @@
                 class="info-item d-flex flex-column justify-content-center align-items-center"
               >
                 <i class="bi bi-envelope"></i>
-                <h3>E-posta</h3>
+                <h3 data-i18n="contact.email"></h3>
                 <a href="mailto:info@tescomarine.com"> info@tescomarine.com</a>
               </div>
             </div>
@@ -160,7 +160,7 @@
                 class="info-item d-flex flex-column justify-content-center align-items-center"
               >
                 <i class="bi bi-telephone"></i>
-                <h3>Bizi Arayın</h3>
+                <h3 data-i18n="contact.callUs"></h3>
                 <a href="tel:+90 (549) 549 22 64">+90 (549) 549 22 64</a>
               </div>
             </div>
@@ -171,7 +171,7 @@
             <div class="col-lg-6">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12028.897971946406!2d28.9711477!3d41.0859414!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7eb4e40172b%3A0xa7509f91db8992e6!2sTesco%20Marin!5e0!3m2!1sen!2str!4v1689466664818!5m2!1sen!2str"
-                width="600"
+                width="550"
                 height="450"
                 style="border: 0"
                 allowfullscreen=""
@@ -191,6 +191,7 @@
                 <div class="row gy-4">
                   <div class="col-lg-6 form-group">
                     <input
+                      id="nameInp"
                       type="text"
                       name="name"
                       class="form-control"
@@ -201,6 +202,7 @@
                   </div>
                   <div class="col-lg-6 form-group">
                     <input
+                      id="emailInp"
                       type="email"
                       class="form-control"
                       name="email"
@@ -212,6 +214,7 @@
                 </div>
                 <div class="form-group">
                   <input
+                    id="phoneInp"
                     type="text"
                     class="form-control"
                     name="subject"
@@ -222,6 +225,7 @@
                 </div>
                 <div class="form-group">
                   <textarea
+                    id="messageInp"
                     class="form-control"
                     name="message"
                     rows="5"
@@ -230,14 +234,12 @@
                   ></textarea>
                 </div>
                 <div class="my-3">
-                  <div class="loading">Loading</div>
+                  <div class="loading" data-i18n="misc.loading"></div>
                   <div class="error-message"></div>
-                  <div class="sent-message">
-                    Mesajınız gönderildi. Teşekkür ederiz!
-                  </div>
+                  <div class="sent-message"></div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">Gönder</button>
+                  <button type="submit" data-i18n="misc.send"></button>
                 </div>
               </form>
             </div>
@@ -259,21 +261,21 @@
                 <h3>TescoMarine</h3>
                 <p>
                   Merkez mh. Kemerburgaz Cd. Buse Sk. No:10/2 <br />
-                  Kağıthane, Istanbul, Turkey<br /><br />
-                  <strong>Telefon: </strong
-                  ><a href="tel:+90 (549) 549 22 64">+90 (549) 549 22 64</a
+                  Kağıthane, Istanbul, Türkiye<br /><br />
+                  <strong data-i18n="footer.phone"> </strong>:
+                  <a href="tel:+90 (549) 549 22 64">+90 (549) 549 22 64</a
                   ><br />
-                  <strong>E-posta: </strong
-                  ><a href="mailto:info@tescomarine.com">
+                  <strong data-i18n="footer.email"> </strong>:
+                  <a href="mailto:info@tescomarine.com">
                     info@tescomarine.com</a
                   >
                 </p>
                 <div class="social-links d-flex mt-3">
                   <!-- <a
-                      href="#"
-                      class="d-flex align-items-center justify-content-center"
-                      ><i class="bi bi-twitter"></i
-                    ></a> -->
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-twitter"></i
+                ></a> -->
                   <a
                     href="https://www.facebook.com/proeventorganizations"
                     target="_blank"
@@ -286,66 +288,74 @@
                     ><i class="bi bi-instagram"></i
                   ></a>
                   <!-- <a
-                      href="#"
-                      class="d-flex align-items-center justify-content-center"
-                      ><i class="bi bi-linkedin"></i
-                    ></a> -->
+                  href="#"
+                  class="d-flex align-items-center justify-content-center"
+                  ><i class="bi bi-linkedin"></i
+                ></a> -->
                 </div>
               </div>
             </div>
             <!-- End footer info column-->
 
             <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Yararlı Linkler</h4>
+              <h4 data-i18n="footer.usefulLinks"></h4>
               <ul>
-                <li><a href="#">Ana Sayfa</a></li>
-                <li><a href="./about.html">Hakkımızda</a></li>
-                <li><a href="./services.html">Hizmetler</a></li>
+                <li><a href="#" data-i18n="site.home">Ana Sayfa</a></li>
+                <li>
+                  <a href="./about.html" data-i18n="site.about">Hakkımızda</a>
+                </li>
+                <li>
+                  <a href="./services.html" data-i18n="site.services"
+                    >Hizmetler</a
+                  >
+                </li>
                 <!-- <li><a href="#">Projeler</a></li> -->
                 <!-- <li><a href="#">Blog</a></li> -->
-                <li><a href="./contact.html">İletişim</a></li>
+                <li>
+                  <a href="./contact.html" data-i18n="site.contact"></a>
+                </li>
               </ul>
             </div>
             <!-- End footer links column-->
 
             <div class="col-lg-4 col-md-8 footer-links">
-              <h4>Hizmetlerimiz</h4>
+              <h4 data-i18n="site.services"></h4>
               <ul class="grayed-out">
-                <li>Bakım</li>
-                <li>Onarım</li>
-                <li>Yenileme</li>
+                <li data-i18n="services.maintenance.name"></li>
+                <li data-i18n="services.repair.name"></li>
+                <li data-i18n="services.renovation.name"></li>
               </ul>
               <ul class="grayed-out" style="float: right">
-                <li>Proje</li>
-                <li>Satış</li>
-                <li>Boya Uygulamaları ve Dekorasyon</li>
+                <li data-i18n="services.projects.name"></li>
+                <li data-i18n="services.sales.name"></li>
+                <li data-i18n="services.decorationAndPainting.name"></li>
               </ul>
             </div>
 
             <!-- End footer links column-->
 
             <!-- <div class="col-lg-2 col-md-3 footer-links">
-                <h4>Hic solutasetp</h4>
-                <ul>
-                  <li><a href="#">Molestiae accusamus iure</a></li>
-                  <li><a href="#">Excepturi dignissimos</a></li>
-                  <li><a href="#">Suscipit distinctio</a></li>
-                  <li><a href="#">Dilecta</a></li>
-                  <li><a href="#">Sit quas consectetur</a></li>
-                </ul>
-              </div> -->
+            <h4>Hic solutasetp</h4>
+            <ul>
+              <li><a href="#">Molestiae accusamus iure</a></li>
+              <li><a href="#">Excepturi dignissimos</a></li>
+              <li><a href="#">Suscipit distinctio</a></li>
+              <li><a href="#">Dilecta</a></li>
+              <li><a href="#">Sit quas consectetur</a></li>
+            </ul>
+          </div> -->
             <!-- End footer links column-->
 
             <!-- <div class="col-lg-2 col-md-3 footer-links">
-                <h4>Nobis illum</h4>
-                <ul>
-                  <li><a href="#">Ipsam</a></li>
-                  <li><a href="#">Laudantium dolorum</a></li>
-                  <li><a href="#">Dinera</a></li>
-                  <li><a href="#">Trodelas</a></li>
-                  <li><a href="#">Flexo</a></li>
-                </ul>
-              </div> -->
+            <h4>Nobis illum</h4>
+            <ul>
+              <li><a href="#">Ipsam</a></li>
+              <li><a href="#">Laudantium dolorum</a></li>
+              <li><a href="#">Dinera</a></li>
+              <li><a href="#">Trodelas</a></li>
+              <li><a href="#">Flexo</a></li>
+            </ul>
+          </div> -->
             <!-- End footer links column-->
           </div>
         </div>
@@ -354,7 +364,8 @@
       <div class="footer-legal text-center position-relative">
         <div class="container">
           <div class="copyright">
-            <strong><span>TescoMarine</span></strong> © Tüm hakları saklıdır.
+            <strong><span>TescoMarine</span></strong> ©
+            <span data-i18n="footer.copyright"></span>
           </div>
         </div>
       </div>

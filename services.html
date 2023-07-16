@@ -120,10 +120,10 @@
           class="container position-relative d-flex flex-column align-items-center"
           data-aos="fade"
         >
-          <h2>Hizmetler</h2>
+          <h2 data-i18n="site.services"></h2>
           <ol>
-            <li><a href="index.html">Ana Sayfa</a></li>
-            <li>Hizmetler</li>
+            <li><a href="index.html" data-i18n="site.home"></a></li>
+            <li data-i18n="site.services"></li>
           </ol>
         </div>
       </div>
@@ -133,14 +133,8 @@
       <section id="services" class="services section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-header">
-            <h2>Hizmetlerimiz</h2>
-            <p>
-              TescoMarine olarak tekne bakım hizmetleri, tekne onarım
-              hizmetleri, yenileme hizmetleri; proje tasarımı, imalat ve montaj
-              hizmetleri, hidrolik sistem arge tasarımı ve hidrolik sistem bakım
-              hizmetleri ile satış; şişme bot ve motor bakım ve onarımı;
-              dekorasyon ve boya hizmetleri sunmaktayız.
-            </p>
+            <h2 data-i18n="services.services"></h2>
+            <p data-i18n="services.servicesExpShort"></p>
           </div>
 
           <div class="row gy-4">
@@ -153,14 +147,14 @@
                 <div class="icon">
                   <i class="fa-solid fa-mountain-city"></i>
                 </div>
-                <h3>Bakım</h3>
+                <h3 data-i18n="services.maintenance.name"></h3>
                 <ul>
-                  <li>Elektrik ve elektronik sistem bakımları</li>
-                  <li>Dizel ve benzin motorların bakımlar</li>
-                  <li>Hidrolik sistem bakımları</li>
-                  <li>Yıllık bakım ve gözlem</li>
-                  <li>Jeneratör, güç sistemleri bakımı</li>
-                  <li>Şişme bot ve motorların bakımları</li>
+                  <li data-i18n="services.maintenance.electrical"></li>
+                  <li data-i18n="services.maintenance.engine"></li>
+                  <li data-i18n="services.maintenance.hydraulic"></li>
+                  <li data-i18n="services.maintenance.inflatable"></li>
+                  <li data-i18n="services.maintenance.periodic"></li>
+                  <li data-i18n="services.maintenance.generator"></li>
                 </ul>
                 <!-- service-details.html -->
                 <!-- <a href="#" class="readmore stretched-link"
@@ -179,14 +173,14 @@
                 <div class="icon">
                   <i class="fa-solid fa-arrow-up-from-ground-water"></i>
                 </div>
-                <h3>Onarım</h3>
+                <h3 data-i18n="services.repair.name"></h3>
                 <ul>
-                  <li>Elektronik kart onarımı</li>
-                  <li>Dizel ve benzin motorların onarımları</li>
-                  <li>Hidrolik sistem onarımları</li>
-                  <li>Jeneratör, güç sistemleri bakımı</li>
-                  <li>Şişme bot ve motorların bakımları</li>
-                  <li>Yelken yapımı ve onarımı</li>
+                  <li data-i18n="services.repair.electrical"></li>
+                  <li data-i18n="services.repair.engine"></li>
+                  <li data-i18n="services.repair.hydraulic"></li>
+                  <li data-i18n="services.repair.inflatable"></li>
+                  <li data-i18n="services.repair.sail"></li>
+                  <li data-i18n="services.repair.generator"></li>
                 </ul>
                 <!-- service-details.html -->
                 <!-- <a href="#" class="readmore stretched-link"
@@ -205,13 +199,15 @@
                 <div class="icon">
                   <i class="fa-solid fa-compass-drafting"></i>
                 </div>
-                <h3>Proje</h3>
+                <h3 data-i18n="services.projects.name"></h3>
                 <ul>
-                  <li>Hidrolik sistem arge tasarım</li>
-                  <li>Elektrik ve elektronik yeni proje tasarımı</li>
-                  <li>Elektrik ve elektronik proje imalat ve montajı</li>
-                  <li>Hidrolik ve mekanik yeni proje tasarımı</li>
-                  <li>Hidrolik ve mekanik proje imalat ve montajı</li>
+                  <li data-i18n="services.projects.hydraulic"></li>
+                  <li data-i18n="services.projects.electricalDesign"></li>
+                  <li
+                    data-i18n="services.projects.electricalManufacturing"
+                  ></li>
+                  <li data-i18n="services.projects.hydraulicDesign"></li>
+                  <li data-i18n="services.projects.hydraulicManufacturing"></li>
                 </ul>
 
                 <!-- <a href="#" class="readmore stretched-link"
@@ -230,10 +226,10 @@
                 <div class="icon">
                   <i class="fa-solid fa-trowel-bricks"></i>
                 </div>
-                <h3>Yenileme</h3>
+                <h3 data-i18n="services.renovation.name"></h3>
                 <ul>
-                  <li>Hidrolik sistem yenilemesi</li>
-                  <li>Modifikasyon ve sistem yenileme işlemleri</li>
+                  <li data-i18n="services.renovation.hydraulic"></li>
+                  <li data-i18n="services.renovation.modification"></li>
                 </ul>
                 <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
@@ -251,9 +247,9 @@
                 <div class="icon">
                   <i class="fa-solid fa-helmet-safety"></i>
                 </div>
-                <h3>Satış</h3>
+                <h3 data-i18n="services.sales.name"></h3>
                 <ul>
-                  <li>Tik satışı ve uygulamaları</li>
+                  <li data-i18n="services.sales.teak"></li>
                 </ul>
                 <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
@@ -271,11 +267,13 @@
                 <div class="icon">
                   <i class="fa-solid fa-arrow-up-from-ground-water"></i>
                 </div>
-                <h3>Boya Uygulamaları ve Dekorasyon</h3>
+                <h3 data-i18n="services.decorationAndPainting.name"></h3>
                 <ul>
-                  <li>İç dış döşeme tasarımı</li>
-                  <li>Boya uygulamaları</li>
-                  <li>Dekorasyon hizmetleri</li>
+                  <li data-i18n="services.decorationAndPainting.interior"></li>
+                  <li data-i18n="services.decorationAndPainting.painting"></li>
+                  <li
+                    data-i18n="services.decorationAndPainting.decoration"
+                  ></li>
                 </ul>
                 <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
@@ -644,12 +642,12 @@
                 <h3>TescoMarine</h3>
                 <p>
                   Merkez mh. Kemerburgaz Cd. Buse Sk. No:10/2 <br />
-                  Kağıthane, Istanbul, Turkey<br /><br />
-                  <strong>Telefon: </strong
-                  ><a href="tel:+90 (549) 549 22 64">+90 (549) 549 22 64</a
+                  Kağıthane, Istanbul, Türkiye<br /><br />
+                  <strong data-i18n="footer.phone"> </strong>:
+                  <a href="tel:+90 (549) 549 22 64">+90 (549) 549 22 64</a
                   ><br />
-                  <strong>E-posta: </strong
-                  ><a href="mailto:info@tescomarine.com">
+                  <strong data-i18n="footer.email"> </strong>:
+                  <a href="mailto:info@tescomarine.com">
                     info@tescomarine.com</a
                   >
                 </p>
@@ -681,29 +679,37 @@
             <!-- End footer info column-->
 
             <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Yararlı Linkler</h4>
+              <h4 data-i18n="footer.usefulLinks"></h4>
               <ul>
-                <li><a href="#">Ana Sayfa</a></li>
-                <li><a href="./about.html">Hakkımızda</a></li>
-                <li><a href="./services.html">Hizmetler</a></li>
+                <li><a href="#" data-i18n="site.home">Ana Sayfa</a></li>
+                <li>
+                  <a href="./about.html" data-i18n="site.about">Hakkımızda</a>
+                </li>
+                <li>
+                  <a href="./services.html" data-i18n="site.services"
+                    >Hizmetler</a
+                  >
+                </li>
                 <!-- <li><a href="#">Projeler</a></li> -->
                 <!-- <li><a href="#">Blog</a></li> -->
-                <li><a href="./contact.html">İletişim</a></li>
+                <li>
+                  <a href="./contact.html" data-i18n="site.contact">İletişim</a>
+                </li>
               </ul>
             </div>
             <!-- End footer links column-->
 
             <div class="col-lg-4 col-md-8 footer-links">
-              <h4>Hizmetlerimiz</h4>
+              <h4 data-i18n="site.services"></h4>
               <ul class="grayed-out">
-                <li>Bakım</li>
-                <li>Onarım</li>
-                <li>Yenileme</li>
+                <li data-i18n="services.maintenance.name"></li>
+                <li data-i18n="services.repair.name"></li>
+                <li data-i18n="services.renovation.name"></li>
               </ul>
               <ul class="grayed-out" style="float: right">
-                <li>Proje</li>
-                <li>Satış</li>
-                <li>Boya Uygulamaları ve Dekorasyon</li>
+                <li data-i18n="services.projects.name"></li>
+                <li data-i18n="services.sales.name"></li>
+                <li data-i18n="services.decorationAndPainting.name"></li>
               </ul>
             </div>
 
@@ -739,7 +745,8 @@
       <div class="footer-legal text-center position-relative">
         <div class="container">
           <div class="copyright">
-            <strong><span>TescoMarine</span></strong> © Tüm hakları saklıdır.
+            <strong><span>TescoMarine</span></strong> ©
+            <span data-i18n="footer.copyright"></span>
           </div>
         </div>
       </div>

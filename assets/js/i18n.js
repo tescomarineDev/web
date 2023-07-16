@@ -102,13 +102,13 @@ $(function () {
                 getStarted: "Get Started",
               },
               site: {
-                home: "HOME",
-                about: "ABOUT",
-                services: "SERVICES",
-                projects: "PROJECTS",
-                blog: "BLOG",
-                contact: "CONTACT",
-                language: "LANGUAGE",
+                home: "Home",
+                about: "About",
+                services: "Services",
+                projects: "Projects",
+                blog: "Blog",
+                contact: "Contact",
+                language: "Language",
               },
               contact: {
                 sendYourProblem: "Contact us for your problem.",
@@ -128,27 +128,94 @@ $(function () {
                   "Thank you for choosing us. We will contact you as soon as possible.",
               },
               services: {
-                services: "Servicess",
+                services: "Services",
                 servicesExpShort:
                   "As TescoMarine, we offer boat maintenance services, boat repair services, renovation services; project design, manufacturing and installation services, hydraulic system R&D design and hydraulic system maintenance services and sales; inflatable boat and engine maintenance and repair; decoration and painting services.",
                 boatJobs: "Boat and Yacht Jobs",
                 explanation:
                   "With our experienced and expert team, we provide you with services for all the problems on your boat. Some of our applications:",
-                repair: "Repair",
                 repairExpShort:
                   "Routine or emergency repair; electrical, electronic, mechanical, engine repairs along with inflatable boat and engine repairs.",
-                maintenance: "Maintenance",
                 maintenanceExpShort: `Boat maintenance and services related to boat maintenance. Electrical and electronic maintenance, diesel and gasoline engine maintenance, maintenance of hydraulic systems.`,
-                project: "Project Design and Installation",
                 projectExpShort:
                   "Project design and installation services for your boats and yachts. Electrical and electronic project design, manufacturing and installation; hydraulic and mechanical project design, manufacturing and installation with system R&D design.",
-                renovation: "Renovation Projects",
                 renovationExpShort:
                   "Services related to boat renovation projects and yacht renovation projects. Hydraulic system renewal; modification and system renewal projects.",
+                maintenance: {
+                  name: "Maintenance",
+                  electrical: "Electric and Electronic System Maintenance",
+                  engine: "Diesel and Gasoline Engine Maintenance",
+                  hydraulic: "Hydraulic System Maintenance",
+                  inflatable: "Inflatable Boat and Engine Maintenance",
+                  periodic: "Yearly Maintenance and Observation",
+                  generator: "Generator Maintenance",
+                },
+                repair: {
+                  name: "Repair",
+                  electrical: "Electronic Card Repair",
+                  engine: "Diesel and Gasoline Engine Repair",
+                  hydraulic: "Hydraulic System Repair",
+                  inflatable: "Inflatable Boat and Engine Repair",
+                  sail: "Sail Making and Repair",
+                  generator: "Generator and Power Systems Repair",
+                },
+                projects: {
+                  name: "Projects",
+                  hydraulic: "Hydraulic System R&D Design",
+                  electricalDesign: "Electrical and Electronic Project Design",
+                  electricalManufacturing:
+                    "Electrical and Electronic Project Manufacturing and Installation",
+                  hydraulicDesign: "Hydraulic and Mechanical Project Design",
+                  hydraulicManufacturing:
+                    "Hydraulic and Mechanical Project Manufacturing and Installation",
+                },
+                renovation: {
+                  name: "Renovation",
+                  hydraulic: "Hydraulic System Renovation",
+                  modification: "Modification and System Renovation Projects",
+                },
+                sales: {
+                  name: "Sales",
+                  teak: "Teak Deck Sales and Applications",
+                },
+                decorationAndPainting: {
+                  name: "Decoration and Painting",
+                  interior: "Interior Upholstery Design and Decoration",
+                  painting: "Painting",
+                  decoration: "Decoration and Design",
+                },
               },
               misc: {
                 loading: "Loading...",
                 send: "Send",
+              },
+              promotion: {
+                title: "Professional, High Quality and Reliable",
+                intro:
+                  "We aim to provide our customers with the highest level of professionalism, quality and reliability in our boat service. Our expert team is equipped with years of experience and knowledge and is constantly improving itself to provide high quality service to our customers.",
+                professionality: "Professionality",
+                professionalityExp:
+                  "Our expert team completes your work professionally using their technical knowledge and skills.",
+                quality: "Quality",
+                qualityExp:
+                  "We select materials in accordance with high quality standards and complete our work with care.",
+                reliability: "Reliability",
+                reliabilityExp:
+                  "We take steps to reassure our customers and take important precautions regarding privacy and security and deliver the time on schedule.",
+                customerSatisfaction: "Customer Satisfaction",
+                customerSatisfactionExp:
+                  "We work to exceed our customers' expectations and provide the best service. Customer satisfaction is always our priority.",
+              },
+              blog: {
+                title: "Blog Posts",
+                intro: `We continue to share our industry knowledge and experience that has been going on for years. You can read our blog posts that we have prepared for you to be informed about the industry, the latest developments and innovations.`,
+                postComingSoon: "Blog posts are coming soon.",
+              },
+              footer: {
+                phone: "Phone",
+                email: "E-mail",
+                copyright: "All rights reserved.",
+                usefulLinks: "Useful Links",
               },
             },
           },

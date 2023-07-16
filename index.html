@@ -293,7 +293,10 @@
                   </div>
                   <div class="col-xl-7 d-flex align-items-center">
                     <div class="card-body">
-                      <h4 class="card-title" data-i18n="services.repair"></h4>
+                      <h4
+                        class="card-title"
+                        data-i18n="services.repair.name"
+                      ></h4>
                       <p data-i18n="services.repairExpShort"></p>
                     </div>
                   </div>
@@ -317,7 +320,7 @@
                     <div class="card-body">
                       <h4
                         class="card-title"
-                        data-i18n="services.maintenance"
+                        data-i18n="services.maintenance.name"
                       ></h4>
                       <p data-i18n="services.maintenanceExpShort"></p>
                     </div>
@@ -340,7 +343,10 @@
                   </div>
                   <div class="col-xl-7 d-flex align-items-center">
                     <div class="card-body">
-                      <h4 class="card-title" data-i18n="services.project"></h4>
+                      <h4
+                        class="card-title"
+                        data-i18n="services.projects.name"
+                      ></h4>
                       <p data-i18n="services.projectExpShort"></p>
                     </div>
                   </div>
@@ -364,7 +370,7 @@
                     <div class="card-body">
                       <h4
                         class="card-title"
-                        data-i18n="services.renovation"
+                        data-i18n="services.renovation.name"
                       ></h4>
                       <p data-i18n="services.renovationExpShort"></p>
                     </div>
@@ -396,14 +402,14 @@
                 <div class="icon">
                   <i class="fa-solid fa-mountain-city"></i>
                 </div>
-                <h3>Bakım</h3>
+                <h3 data-i18n="services.maintenance.name"></h3>
                 <ul>
-                  <li>Elektrik ve elektronik sistem bakımları</li>
-                  <li>Dizel ve benzin motorların bakımlar</li>
-                  <li>Hidrolik sistem bakımları</li>
-                  <li>Yıllık bakım ve gözlem</li>
-                  <li>Jeneratör, güç sistemleri bakımı</li>
-                  <li>Şişme bot ve motorların bakımları</li>
+                  <li data-i18n="services.maintenance.electrical"></li>
+                  <li data-i18n="services.maintenance.engine"></li>
+                  <li data-i18n="services.maintenance.hydraulic"></li>
+                  <li data-i18n="services.maintenance.inflatable"></li>
+                  <li data-i18n="services.maintenance.periodic"></li>
+                  <li data-i18n="services.maintenance.generator"></li>
                 </ul>
                 <!-- service-details.html -->
                 <!-- <a href="#" class="readmore stretched-link"
@@ -422,14 +428,14 @@
                 <div class="icon">
                   <i class="fa-solid fa-arrow-up-from-ground-water"></i>
                 </div>
-                <h3>Onarım</h3>
+                <h3 data-i18n="services.repair.name"></h3>
                 <ul>
-                  <li>Elektronik kart onarımı</li>
-                  <li>Dizel ve benzin motorların onarımları</li>
-                  <li>Hidrolik sistem onarımları</li>
-                  <li>Jeneratör, güç sistemleri bakımı</li>
-                  <li>Şişme bot ve motorların bakımları</li>
-                  <li>Yelken yapımı ve onarımı</li>
+                  <li data-i18n="services.repair.electrical"></li>
+                  <li data-i18n="services.repair.engine"></li>
+                  <li data-i18n="services.repair.hydraulic"></li>
+                  <li data-i18n="services.repair.inflatable"></li>
+                  <li data-i18n="services.repair.sail"></li>
+                  <li data-i18n="services.repair.generator"></li>
                 </ul>
                 <!-- service-details.html -->
                 <!-- <a href="#" class="readmore stretched-link"
@@ -448,13 +454,15 @@
                 <div class="icon">
                   <i class="fa-solid fa-compass-drafting"></i>
                 </div>
-                <h3>Proje</h3>
+                <h3 data-i18n="services.projects.name"></h3>
                 <ul>
-                  <li>Hidrolik sistem arge tasarım</li>
-                  <li>Elektrik ve elektronik yeni proje tasarımı</li>
-                  <li>Elektrik ve elektronik proje imalat ve montajı</li>
-                  <li>Hidrolik ve mekanik yeni proje tasarımı</li>
-                  <li>Hidrolik ve mekanik proje imalat ve montajı</li>
+                  <li data-i18n="services.projects.hydraulic"></li>
+                  <li data-i18n="services.projects.electricalDesign"></li>
+                  <li
+                    data-i18n="services.projects.electricalManufacturing"
+                  ></li>
+                  <li data-i18n="services.projects.hydraulicDesign"></li>
+                  <li data-i18n="services.projects.hydraulicManufacturing"></li>
                 </ul>
 
                 <!-- <a href="#" class="readmore stretched-link"
@@ -473,10 +481,10 @@
                 <div class="icon">
                   <i class="fa-solid fa-trowel-bricks"></i>
                 </div>
-                <h3>Yenileme</h3>
+                <h3 data-i18n="services.renovation.name"></h3>
                 <ul>
-                  <li>Hidrolik sistem yenilemesi</li>
-                  <li>Modifikasyon ve sistem yenileme işlemleri</li>
+                  <li data-i18n="services.renovation.hydraulic"></li>
+                  <li data-i18n="services.renovation.modification"></li>
                 </ul>
                 <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
@@ -494,9 +502,9 @@
                 <div class="icon">
                   <i class="fa-solid fa-helmet-safety"></i>
                 </div>
-                <h3>Satış</h3>
+                <h3 data-i18n="services.sales.name"></h3>
                 <ul>
-                  <li>Tik satışı ve uygulamaları</li>
+                  <li data-i18n="services.sales.teak"></li>
                 </ul>
                 <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
@@ -514,11 +522,13 @@
                 <div class="icon">
                   <i class="fa-solid fa-arrow-up-from-ground-water"></i>
                 </div>
-                <h3>Boya Uygulamaları ve Dekorasyon</h3>
+                <h3 data-i18n="services.decorationAndPainting.name"></h3>
                 <ul>
-                  <li>İç dış döşeme tasarımı</li>
-                  <li>Boya uygulamaları</li>
-                  <li>Dekorasyon hizmetleri</li>
+                  <li data-i18n="services.decorationAndPainting.interior"></li>
+                  <li data-i18n="services.decorationAndPainting.painting"></li>
+                  <li
+                    data-i18n="services.decorationAndPainting.decoration"
+                  ></li>
                 </ul>
                 <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
@@ -543,14 +553,8 @@
             ></div>
 
             <div class="col-lg-5 d-flex flex-column justify-content-center">
-              <h3>Profesyonel, Kaliteli ve Güvenli</h3>
-              <p>
-                Tekne servisimizde, müşterilerimize en üst düzeyde
-                profesyonellik, kalite ve güven sunmayı hedefliyoruz. Uzman
-                ekibimiz, yılların deneyimi ve bilgisiyle donatılmıştır ve
-                müşterilerimize yüksek kalitede hizmet sunmak için sürekli
-                olarak kendini geliştirmektedir.
-              </p>
+              <h3 data-i18n="promotion.title"></h3>
+              <p data-i18n="promotion.intro"></p>
 
               <div
                 class="icon-box d-flex position-relative"
@@ -559,11 +563,14 @@
               >
                 <i class="bi bi-easel flex-shrink-0"></i>
                 <div>
-                  <h4><a href="" class="stretched-link">Profesyonellik</a></h4>
-                  <p>
-                    Uzman ekibimiz, teknik bilgi ve becerilerini kullanarak
-                    işlerinizi profesyonel bir şekilde tamamlar
-                  </p>
+                  <h4>
+                    <a
+                      href=""
+                      class="stretched-link"
+                      data-i18n="promotion.professionality"
+                    ></a>
+                  </h4>
+                  <p data-i18n="promotion.professionalityExp"></p>
                 </div>
               </div>
               <!-- End Icon Box -->
@@ -575,11 +582,14 @@
               >
                 <i class="bi bi-patch-check flex-shrink-0"></i>
                 <div>
-                  <h4><a href="" class="stretched-link">Kalite</a></h4>
-                  <p>
-                    Yüksek kalite standartlarına bağlı kalarak malzemeleri seçer
-                    ve işleri titizlikle tamamlarız
-                  </p>
+                  <h4>
+                    <a
+                      href=""
+                      class="stretched-link"
+                      data-i18n="promotion.quality"
+                    ></a>
+                  </h4>
+                  <p data-i18n="promotion.qualityExp"></p>
                 </div>
               </div>
               <!-- End Icon Box -->
@@ -591,11 +601,14 @@
               >
                 <i class="bi bi-brightness-high flex-shrink-0"></i>
                 <div>
-                  <h4><a href="" class="stretched-link">Güven</a></h4>
-                  <p>
-                    Müşterilerimize güven vermek için adımlarımızı atar,
-                    gizlilik ve güvenlik konusunda önemli önlemler alırız
-                  </p>
+                  <h4>
+                    <a
+                      href=""
+                      class="stretched-link"
+                      data-i18n="promotion.reliability"
+                    ></a>
+                  </h4>
+                  <p data-i18n="promotion.reliabilityExp"></p>
                 </div>
               </div>
               <!-- End Icon Box -->
@@ -608,13 +621,13 @@
                 <i class="bi bi-brightness-high flex-shrink-0"></i>
                 <div>
                   <h4>
-                    <a href="" class="stretched-link">Müşteri Memnuniyeti</a>
+                    <a
+                      href=""
+                      class="stretched-link"
+                      data-i18n="promotion.customerSatisfaction"
+                    ></a>
                   </h4>
-                  <p>
-                    Müşterilerimizin beklentilerini aşmak ve en iyi hizmeti
-                    sunmak için çalışırız. Müşteri memnuniyeti her zaman
-                    önceliğimizdir
-                  </p>
+                  <p data-i18n="promotion.customerSatisfactionExp"></p>
                 </div>
               </div>
               <!-- End Icon Box -->
@@ -1379,13 +1392,8 @@
         <div class="container" data-aos="fade-up"">
 
         <div class="section-header">
-          <h2>Blog Yazıları</h2>
-          <p>
-            Yıllardan süregelen sektör bilgimizi ve tecrübemizi sizlerle
-            paylaşmaya devam ediyoruz. Sizler için hazırladığımız blog
-            yazılarımızı okuyarak, sektör; son gelişmeler ve yenilikler hakkında
-            bilgi sahibi olabilirsiniz.
-          </p>
+          <h2 data-i18n="blog.title"></h2>
+          <p data-i18n="blog.intro"></p>
         </div>
 
         <div class="row gy-5">
@@ -1405,7 +1413,7 @@
               </div>
 
               <div class="post-content d-flex flex-column">
-                <h3 class="post-title">Blog yazılarımız yakında sizlerle</h3>
+                <h3 class="post-title" data-i18n="blog.postComingSoon"></h3>
 
                 <div class="meta d-flex align-items-center">
                   <div class="d-flex align-items-center">
@@ -1528,12 +1536,12 @@
                 <h3>TescoMarine</h3>
                 <p>
                   Merkez mh. Kemerburgaz Cd. Buse Sk. No:10/2 <br />
-                  Kağıthane, Istanbul, Turkey<br /><br />
-                  <strong>Telefon: </strong
-                  ><a href="tel:+90 (549) 549 22 64">+90 (549) 549 22 64</a
+                  Kağıthane, Istanbul, Türkiye<br /><br />
+                  <strong data-i18n="footer.phone"> </strong>:
+                  <a href="tel:+90 (549) 549 22 64">+90 (549) 549 22 64</a
                   ><br />
-                  <strong>E-posta: </strong
-                  ><a href="mailto:info@tescomarine.com">
+                  <strong data-i18n="footer.email"> </strong>:
+                  <a href="mailto:info@tescomarine.com">
                     info@tescomarine.com</a
                   >
                 </p>
@@ -1565,29 +1573,37 @@
             <!-- End footer info column-->
 
             <div class="col-lg-2 col-md-3 footer-links">
-              <h4>Yararlı Linkler</h4>
+              <h4 data-i18n="footer.usefulLinks"></h4>
               <ul>
-                <li><a href="#">Ana Sayfa</a></li>
-                <li><a href="./about.html">Hakkımızda</a></li>
-                <li><a href="./services.html">Hizmetler</a></li>
+                <li><a href="#" data-i18n="site.home">Ana Sayfa</a></li>
+                <li>
+                  <a href="./about.html" data-i18n="site.about">Hakkımızda</a>
+                </li>
+                <li>
+                  <a href="./services.html" data-i18n="site.services"
+                    >Hizmetler</a
+                  >
+                </li>
                 <!-- <li><a href="#">Projeler</a></li> -->
                 <!-- <li><a href="#">Blog</a></li> -->
-                <li><a href="./contact.html">İletişim</a></li>
+                <li>
+                  <a href="./contact.html" data-i18n="site.contact">İletişim</a>
+                </li>
               </ul>
             </div>
             <!-- End footer links column-->
 
             <div class="col-lg-4 col-md-8 footer-links">
-              <h4>Hizmetlerimiz</h4>
+              <h4 data-i18n="site.services"></h4>
               <ul class="grayed-out">
-                <li>Bakım</li>
-                <li>Onarım</li>
-                <li>Yenileme</li>
+                <li data-i18n="services.maintenance.name"></li>
+                <li data-i18n="services.repair.name"></li>
+                <li data-i18n="services.renovation.name"></li>
               </ul>
               <ul class="grayed-out" style="float: right">
-                <li>Proje</li>
-                <li>Satış</li>
-                <li>Boya Uygulamaları ve Dekorasyon</li>
+                <li data-i18n="services.projects.name"></li>
+                <li data-i18n="services.sales.name"></li>
+                <li data-i18n="services.decorationAndPainting.name"></li>
               </ul>
             </div>
 
@@ -1623,7 +1639,8 @@
       <div class="footer-legal text-center position-relative">
         <div class="container">
           <div class="copyright">
-            <strong><span>TescoMarine</span></strong> © Tüm hakları saklıdır.
+            <strong><span>TescoMarine</span></strong> ©
+            <span data-i18n="footer.copyright"></span>
           </div>
         </div>
       </div>
@@ -1652,6 +1669,7 @@
     <script src="https://cdn.jsdelivr.net/npm/i18next@21.3.0/dist/umd/i18next.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@7.1.0/i18nextBrowserLanguageDetector.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.1/i18nextHttpBackend.min.js"></script>
 
     <!-- Local JS Files -->
     <script src="assets/js/main.js"></script>

@@ -16,6 +16,8 @@ const rerender = () => {
   inputElement.placeholder = $.t("contact.phone");
   var inputElement = document.getElementById("messageInp");
   inputElement.placeholder = $.t("contact.message");
+  var inputElement = document.getElementById("subjectInp");
+  inputElement.placeholder = $.t("contact.subject");
 };
 
 $(function () {
@@ -70,6 +72,7 @@ $(function () {
                 name: "Adınız",
                 email: "E-posta",
                 phone: "Telefon",
+                subject: "Konu",
                 message: "Mesajınız",
                 errorSending:
                   "Mesajınız gönderilirken bir hata oluştu. Lütfen tekrar deneyin.",
@@ -238,6 +241,7 @@ $(function () {
                 name: "Name",
                 email: "E-mail",
                 phone: "Phone",
+                subject: "Subject",
                 message: "Message",
                 errorSending:
                   "An error occurred while sending your message. Please try again.",

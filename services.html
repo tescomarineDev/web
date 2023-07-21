@@ -47,33 +47,33 @@
   <body>
     <!-- ======= Header ======= -->
     <header id="header" class="header d-flex align-items-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <h1>Tescomarine</h1> -->
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img
+          height="60px"
+          style="padding-left: 40px"
+          src="assets/img/horizontal_logo.png"
+          alt=""
+        />
+      </a>
       <div
-        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+        class="container-fluid container-xl d-flex align-items-center justify-content-end"
+        style="margin-right: 50px"
       >
-        <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <h1>Tescomarine</h1>
-        </a>
-
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
         <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
         <nav id="navbar" class="navbar">
           <ul>
             <li>
-              <a href="index.html" data-i18n="site.homeNav"></a>
+              <a href="index.html" class="active" data-i18n="site.homeNav"></a>
             </li>
-            <li>
-              <a href="./about.html" data-i18n="site.aboutNav"></a>
-            </li>
-            <li>
-              <a
-                href="./services.html"
-                class="active"
-                data-i18n="site.servicesNav"
-              ></a>
-            </li>
+            <!-- <li><a href="./about.html" data-i18n="site.aboutNav"></a></li> -->
+            <li><a href="./services.html" data-i18n="site.servicesNav"></a></li>
             <!-- <li><a href="" data-i18n="site.projects"></a></li> -->
+            <!-- projects.html -->
             <!-- <li><a href="" data-i18n="site.blog"></a></li> -->
+            <!-- blog.html -->
             <li><a href="./contact.html" data-i18n="site.contactNav"></a></li>
             <li class="dropdown">
               <a href=""
@@ -84,20 +84,20 @@
                 <li><a onClick="setLanguage('tr')" href="#">Türkçe</a></li>
                 <li><a onClick="setLanguage('en')" href="#">English</a></li>
                 <!-- <li class="dropdown">
-                  <a href="#"
-                    ><span>Deep Dropdown</span>
-                    <i class="bi bi-chevron-down dropdown-indicator"></i
-                  ></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li> -->
+                    <a href="#"
+                      ><span>Deep Dropdown</span>
+                      <i class="bi bi-chevron-down dropdown-indicator"></i
+                    ></a>
+                    <ul>
+                      <li><a href="#">Deep Dropdown 1</a></li>
+                      <li><a href="#">Deep Dropdown 2</a></li>
+                      <li><a href="#">Deep Dropdown 3</a></li>
+                      <li><a href="#">Deep Dropdown 4</a></li>
+                      <li><a href="#">Deep Dropdown 5</a></li>
+                    </ul>
+                  </li> -->
                 <!-- <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li> -->
+                  <li><a href="#">Dropdown 4</a></li> -->
               </ul>
             </li>
           </ul>
@@ -636,7 +636,15 @@
           <div class="row">
             <div class="col-lg-4 col-md-6">
               <div class="footer-info">
-                <h3>Tescomarine</h3>
+                <!-- <h3>Tescomarine</h3> -->
+                <a href="index.html" class="logo d-flex align-items-center">
+                  <img
+                    height="60px"
+                    style="padding-bottom: 10px"
+                    src="assets/img/horizontal_logo.png"
+                    alt=""
+                  />
+                </a>
                 <p>
                   Merkez mh. Kemerburgaz Cd. Buse Sk. No:10/2 <br />
                   Kağıthane, Istanbul, Türkiye<br /><br />
@@ -679,9 +687,9 @@
               <h4 data-i18n="footer.usefulLinks"></h4>
               <ul>
                 <li><a href="#" data-i18n="site.home"></a></li>
-                <li>
-                  <a href="./about.html" data-i18n="site.about"></a>
-                </li>
+                <!-- <li>
+                    <a href="./about.html" data-i18n="site.about"></a>
+                  </li> -->
                 <li>
                   <a href="./services.html" data-i18n="site.services"></a>
                 </li>

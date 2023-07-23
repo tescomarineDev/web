@@ -2,9 +2,10 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/tescomarine/public_html
-    - /bin/cp -r /assets $DEPLOYPATH
-    - /bin/cp -r /forms $DEPLOYPATH
-    - /bin/cp -r /forms $DEPLOYPATH
-    - /bin/cp -r /locales $DEPLOYPATH
-    - /bin/cp -r /pages $DEPLOYPATH
-    - /bin/cp -r index.html $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
+    # - /bin/cp -r /assets $DEPLOYPATH
+    # - /bin/cp -r /forms $DEPLOYPATH
+    # - /bin/cp -r /forms $DEPLOYPATH
+    # - /bin/cp -r /locales $DEPLOYPATH
+    # - /bin/cp -r /pages $DEPLOYPATH
+    # - /bin/cp -r index.html $DEPLOYPATH

@@ -90,6 +90,8 @@ $(function () {
                   "Bizi tercih ettiğiniz için teşekkür ederiz. En kısa sürede sizinle iletişime geçeceğiz.",
                 ourAddress: "Adresimiz",
                 callUs: "Bize Ulaşın",
+                mainOffice: "Merkez Ofis",
+                gocekOffice: "Göcek Ofisi",
               },
               services: {
                 services: "Hizmetlerimiz",
@@ -259,6 +261,8 @@ $(function () {
                   "Thank you for choosing us. We will contact you as soon as possible.",
                 ourAddress: "Our Address",
                 callUs: "Call Us",
+                mainOffice: "Main Office",
+                gocekOffice: "Göcek Office",
               },
               services: {
                 services: "Services",

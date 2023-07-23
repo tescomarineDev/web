@@ -8,16 +8,26 @@ const rerender = () => {
   // https://github.com/i18next/jquery-i18next#usage-of-selector-function
   $("body").localize();
   $("title").text($.t("index.welcomeTo"));
-  var inputElement = document.getElementById("nameInp");
-  inputElement.placeholder = $.t("contact.name");
-  var inputElement = document.getElementById("emailInp");
-  inputElement.placeholder = $.t("contact.email");
-  var inputElement = document.getElementById("phoneInp");
-  inputElement.placeholder = $.t("contact.phone");
-  var inputElement = document.getElementById("messageInp");
-  inputElement.placeholder = $.t("contact.message");
-  var inputElement = document.getElementById("subjectInp");
-  inputElement.placeholder = $.t("contact.subject");
+  var inputElement1 = document.getElementById("nameInp");
+  if (inputElement1 != null) {
+    inputElement1.placeholder = $.t("contact.name");
+  }
+  var inputElement2 = document.getElementById("emailInp");
+  if (inputElement2 != null) {
+    inputElement2.placeholder = $.t("contact.email");
+  }
+  var inputElement3 = document.getElementById("phoneInp");
+  if (inputElement3 != null) {
+    inputElement3.placeholder = $.t("contact.phone");
+  }
+  var inputElement4 = document.getElementById("messageInp");
+  if (inputElement4 != null) {
+    inputElement4.placeholder = $.t("contact.message");
+  }
+  var inputElement5 = document.getElementById("subjectInp");
+  if (inputElement5 != null) {
+    inputElement5.placeholder = $.t("contact.subject");
+  }
 };
 
 $(function () {

@@ -122,7 +122,7 @@
               <a
                 data-aos="fade-up"
                 data-aos-delay="200"
-                href="#get-started"
+                href="#constructions"
                 class="btn-get-started"
                 data-i18n="index.getStarted"
               ></a>
@@ -200,91 +200,6 @@
     <!-- End Hero Section -->
 
     <main id="main">
-      <!-- ======= Get Started Section ======= -->
-      <section id="get-started" class="get-started section-bg">
-        <div class="container">
-          <div class="row justify-content-between gy-4">
-            <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
-              <div class="content">
-                <h3 data-i18n="contact.sendYourProblem"></h3>
-                <p data-i18n="contact.explanation1"></p>
-                <p data-i18n="contact.explanation1"></p>
-              </div>
-            </div>
-
-            <div class="col-lg-5" data-aos="fade">
-              <form
-                action="forms/quote.php"
-                method="post"
-                class="php-email-form"
-              >
-                <h3 data-i18n="contact.form"></h3>
-                <p data-i18n="contact.fillAllAreas"></p>
-
-                <p data-i18n="contact.giveDetails"></p>
-                <div class="row gy-3">
-                  <div class="col-md-12">
-                    <input
-                      id="nameInp"
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      required
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <input
-                      id="emailInp"
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      required
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <input
-                      id="phoneInp"
-                      type="text"
-                      class="form-control"
-                      name="phone"
-                      required
-                    />
-                  </div>
-
-                  <div class="col-md-12">
-                    <textarea
-                      id="messageInp"
-                      class="form-control"
-                      name="message"
-                      rows="6"
-                      required
-                    ></textarea>
-                  </div>
-
-                  <div class="col-md-12 text-center">
-                    <div class="loading" data-i18n="misc.loading"></div>
-                    <div
-                      class="error-message"
-                      data-i18n="contact.errorSending"
-                    ></div>
-                    <div
-                      class="sent-message"
-                      data-i18n="contact.tyForSending"
-                    ></div>
-
-                    <button type="submit" data-i18n="misc.send"></button>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <!-- End Quote Form -->
-          </div>
-        </div>
-      </section>
-      <!-- End Get Started Section -->
-
       <!-- ======= Constructions Section ======= -->
       <section id="constructions" class="constructions">
         <div class="container" data-aos="fade-up">
@@ -309,9 +224,11 @@
                     <div class="card-body">
                       <h4
                         class="card-title"
-                        data-i18n="services.repair.name"
+                        data-i18n="services.periodicObservation.name"
                       ></h4>
-                      <p data-i18n="services.repairExpShort"></p>
+                      <p
+                        data-i18n="services.periodicObservation.explanation"
+                      ></p>
                     </div>
                   </div>
                 </div>
@@ -336,7 +253,7 @@
                         class="card-title"
                         data-i18n="services.maintenance.name"
                       ></h4>
-                      <p data-i18n="services.maintenanceExpShort"></p>
+                      <p data-i18n="services.maintenance.explanation"></p>
                     </div>
                   </div>
                 </div>
@@ -359,9 +276,9 @@
                     <div class="card-body">
                       <h4
                         class="card-title"
-                        data-i18n="services.projects.name"
+                        data-i18n="services.electrical.name"
                       ></h4>
-                      <p data-i18n="services.projectExpShort"></p>
+                      <p data-i18n="services.electrical.explanation"></p>
                     </div>
                   </div>
                 </div>
@@ -384,9 +301,9 @@
                     <div class="card-body">
                       <h4
                         class="card-title"
-                        data-i18n="services.renovation.name"
+                        data-i18n="services.survey.name"
                       ></h4>
-                      <p data-i18n="services.renovationExpShort"></p>
+                      <p data-i18n="services.survey.explanation"></p>
                     </div>
                   </div>
                 </div>
@@ -416,14 +333,9 @@
                 <div class="icon">
                   <i class="fa-solid fa-mountain-city"></i>
                 </div>
-                <h3 data-i18n="services.maintenance.name"></h3>
+                <h3 data-i18n="services.periodicObservation.name"></h3>
                 <ul>
-                  <li data-i18n="services.maintenance.electrical"></li>
-                  <li data-i18n="services.maintenance.engine"></li>
-                  <li data-i18n="services.maintenance.hydraulic"></li>
-                  <li data-i18n="services.maintenance.inflatable"></li>
-                  <li data-i18n="services.maintenance.periodic"></li>
-                  <li data-i18n="services.maintenance.generator"></li>
+                  <li data-i18n="services.periodicObservation.explanation"></li>
                 </ul>
                 <!-- service-details.html -->
                 <!-- <a href="#" class="readmore stretched-link"
@@ -440,48 +352,16 @@
             >
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                  <i class="fa-solid fa-mountain-city"></i>
                 </div>
-                <h3 data-i18n="services.repair.name"></h3>
+                <h3 data-i18n="services.maintenance.name"></h3>
                 <ul>
-                  <li data-i18n="services.repair.electrical"></li>
-                  <li data-i18n="services.repair.engine"></li>
-                  <li data-i18n="services.repair.hydraulic"></li>
-                  <li data-i18n="services.repair.inflatable"></li>
-                  <li data-i18n="services.repair.sail"></li>
-                  <li data-i18n="services.repair.generator"></li>
+                  <li data-i18n="services.maintenance.explanation"></li>
                 </ul>
                 <!-- service-details.html -->
                 <!-- <a href="#" class="readmore stretched-link"
-                  >Learn more <i class="bi bi-arrow-right"></i
-                ></a> -->
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="fa-solid fa-compass-drafting"></i>
-                </div>
-                <h3 data-i18n="services.projects.name"></h3>
-                <ul>
-                  <li data-i18n="services.projects.hydraulic"></li>
-                  <li data-i18n="services.projects.electricalDesign"></li>
-                  <li
-                    data-i18n="services.projects.electricalManufacturing"
-                  ></li>
-                  <li data-i18n="services.projects.hydraulicDesign"></li>
-                  <li data-i18n="services.projects.hydraulicManufacturing"></li>
-                </ul>
-
-                <!-- <a href="#" class="readmore stretched-link"
-                  >Learn more <i class="bi bi-arrow-right"></i
-                ></a> -->
+                    >Learn more <i class="bi bi-arrow-right"></i
+                        ></a> -->
               </div>
             </div>
             <!-- End Service Item -->
@@ -493,16 +373,37 @@
             >
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="fa-solid fa-trowel-bricks"></i>
+                  <i class="fa-solid fa-mountain-city"></i>
                 </div>
-                <h3 data-i18n="services.renovation.name"></h3>
+                <h3 data-i18n="services.machineMaintenance.name"></h3>
                 <ul>
-                  <li data-i18n="services.renovation.hydraulic"></li>
-                  <li data-i18n="services.renovation.modification"></li>
+                  <li data-i18n="services.machineMaintenance.explanation"></li>
                 </ul>
+                <!-- service-details.html -->
                 <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
-                ></a> -->
+                      ></a> -->
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-mountain-city"></i>
+                </div>
+                <h3 data-i18n="services.cleaning.name"></h3>
+                <ul>
+                  <li data-i18n="services.cleaning.explanation"></li>
+                </ul>
+                <!-- service-details.html -->
+                <!-- <a href="#" class="readmore stretched-link"
+                    >Learn more <i class="bi bi-arrow-right"></i
+                        ></a> -->
               </div>
             </div>
             <!-- End Service Item -->
@@ -514,15 +415,16 @@
             >
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="fa-solid fa-helmet-safety"></i>
+                  <i class="fa-solid fa-mountain-city"></i>
                 </div>
-                <h3 data-i18n="services.sales.name"></h3>
+                <h3 data-i18n="services.electrical.name"></h3>
                 <ul>
-                  <li data-i18n="services.sales.teak"></li>
+                  <li data-i18n="services.electrical.explanation"></li>
                 </ul>
+                <!-- service-details.html -->
                 <!-- <a href="#" class="readmore stretched-link"
-                  >Learn more <i class="bi bi-arrow-right"></i
-                ></a> -->
+                    >Learn more <i class="bi bi-arrow-right"></i
+                        ></a> -->
               </div>
             </div>
             <!-- End Service Item -->
@@ -534,19 +436,102 @@
             >
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                  <i class="fa-solid fa-mountain-city"></i>
                 </div>
-                <h3 data-i18n="services.decorationAndPainting.name"></h3>
+                <h3 data-i18n="services.osmos.name"></h3>
                 <ul>
-                  <li data-i18n="services.decorationAndPainting.interior"></li>
-                  <li data-i18n="services.decorationAndPainting.painting"></li>
-                  <li
-                    data-i18n="services.decorationAndPainting.decoration"
-                  ></li>
+                  <li data-i18n="services.osmos.explanation"></li>
                 </ul>
+                <!-- service-details.html -->
+                <!-- <a href="#" class="readmore stretched-link"
+                    >Learn more <i class="bi bi-arrow-right"></i
+                        ></a> -->
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-mountain-city"></i>
+                </div>
+                <h3 data-i18n="services.boatTrade.name"></h3>
+                <ul>
+                  <li data-i18n="services.boatTrade.explanation"></li>
+                </ul>
+                <!-- service-details.html -->
                 <!-- <a href="#" class="readmore stretched-link"
                   >Learn more <i class="bi bi-arrow-right"></i
-                ></a> -->
+                      ></a> -->
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-mountain-city"></i>
+                </div>
+                <h3 data-i18n="services.teak.name"></h3>
+                <ul>
+                  <li data-i18n="services.teak.explanation"></li>
+                </ul>
+                <!-- service-details.html -->
+                <!-- <a href="#" class="readmore stretched-link"
+                    >Learn more <i class="bi bi-arrow-right"></i
+                        ></a> -->
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-mountain-city"></i>
+                </div>
+                <h3 data-i18n="services.survey.name"></h3>
+                <ul>
+                  <li data-i18n="services.survey.explanation"></li>
+                </ul>
+                <!-- service-details.html -->
+                <!-- <a href="#" class="readmore stretched-link"
+                  >Learn more <i class="bi bi-arrow-right"></i
+                      ></a> -->
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-mountain-city"></i>
+                </div>
+                <h3 data-i18n="services.taxiAndTour.name"></h3>
+                <ul>
+                  <li data-i18n="services.taxiAndTour.explanation"></li>
+                  <br />
+                  <a href="tel:+90 (532) 440 95 80">0 (532) 440 95 80</a>
+                </ul>
+                <!-- service-details.html -->
+                <!-- <a href="#" class="readmore stretched-link"
+                    >Learn more <i class="bi bi-arrow-right"></i
+                        ></a> -->
               </div>
             </div>
             <!-- End Service Item -->
@@ -1386,6 +1371,91 @@
       </section> -->
       <!-- End Testimonials Section -->
 
+      <!-- ======= Get Started Section ======= -->
+      <section id="get-started" class="get-started section-bg">
+        <div class="container">
+          <div class="row justify-content-between gy-4">
+            <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+              <div class="content">
+                <h3 data-i18n="contact.sendYourProblem"></h3>
+                <p data-i18n="contact.explanation1"></p>
+                <p data-i18n="contact.explanation1"></p>
+              </div>
+            </div>
+
+            <div class="col-lg-5" data-aos="fade">
+              <form
+                action="forms/quote.php"
+                method="post"
+                class="php-email-form"
+              >
+                <h3 data-i18n="contact.form"></h3>
+                <p data-i18n="contact.fillAllAreas"></p>
+
+                <p data-i18n="contact.giveDetails"></p>
+                <div class="row gy-3">
+                  <div class="col-md-12">
+                    <input
+                      id="nameInp"
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      id="emailInp"
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      id="phoneInp"
+                      type="text"
+                      class="form-control"
+                      name="phone"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea
+                      id="messageInp"
+                      class="form-control"
+                      name="message"
+                      rows="6"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading" data-i18n="misc.loading"></div>
+                    <div
+                      class="error-message"
+                      data-i18n="contact.errorSending"
+                    ></div>
+                    <div
+                      class="sent-message"
+                      data-i18n="contact.tyForSending"
+                    ></div>
+
+                    <button type="submit" data-i18n="misc.send"></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Quote Form -->
+          </div>
+        </div>
+      </section>
+      <!-- End Get Started Section -->
+
       <!-- ======= Recent Blog Posts Section ======= -->
       <section id="recent-blog-posts" class="recent-blog-posts">
         <div class="container" data-aos="fade-up"">
@@ -1604,14 +1674,20 @@
             <div class="col-lg-4 col-md-8 footer-links">
               <h4 data-i18n="site.services"></h4>
               <ul class="grayed-out">
+                <li data-i18n="services.periodicObservation.name"></li>
                 <li data-i18n="services.maintenance.name"></li>
-                <li data-i18n="services.repair.name"></li>
-                <li data-i18n="services.renovation.name"></li>
+                <li data-i18n="services.cleaning.name"></li>
               </ul>
-              <ul class="grayed-out" style="float: right">
-                <li data-i18n="services.projects.name"></li>
-                <li data-i18n="services.sales.name"></li>
-                <li data-i18n="services.decorationAndPainting.name"></li>
+              <ul class="grayed-out">
+                <li data-i18n="services.machineMaintenance.name"></li>
+                <li data-i18n="services.electrical.name"></li>
+                <li data-i18n="services.survey.name"></li>
+              </ul>
+              <ul class="grayed-out">
+                <li data-i18n="services.osmos.name"></li>
+                <li data-i18n="services.teak.name"></li>
+                <li data-i18n="services.boatTrade.name"></li>
+                <li data-i18n="services.taxiAndTour.name"></li>
               </ul>
             </div>
 

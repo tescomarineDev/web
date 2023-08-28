@@ -50,7 +50,7 @@ $(function () {
                 welcomeTo: "Tescomarine'e hoşgeldiniz",
                 description:
                   "Size en iyi çözümleri sunmak için titizlikle çalışıyor ve teknenizin en iyi durumda kalmasını sağlamak için elimizden geleni yapıyoruz. İster küçük bir onarım olsun, ister kapsamlı bir bakım veya boyama işlemi, uzmanlığımızı ve profesyonel yaklaşımımızı her adımda göreceksiniz.",
-                getStarted: "Başlayalım",
+                getStarted: "Detaylı Bilgi için Tıkla",
               },
               site: {
                 home: "Ana Sayfa",
@@ -109,49 +109,55 @@ $(function () {
                 renovation: "Yenileme Projeleri",
                 renovationExpShort:
                   "Tekne yenileme projeleri ve yat yenileme projeleri ile ilgili hizmetler. Hidrolik sistem yenileme; modifikasyon ve sistem yenileme projeleri.",
-
+                periodicObservation: {
+                  name: "Düzenli Gözlem",
+                  explanation:
+                    "Teknelerinizi rutin kontrollerle her an hazır tutuluyoruz. Aksaklıkları küçükken tespit etmeyi ve anında çözümlemeyi önemsiyoruz",
+                },
                 maintenance: {
-                  name: "Bakım İşlemleri",
-                  electrical: "Elektrik ve Elektronik Sistem Bakımı",
-                  engine: "Dizel ve Benzin Motor Bakımı",
-                  hydraulic: "Hidrolik Sistem Bakımı",
-                  inflatable: "Şişme Bot ve Motor Bakımı",
-                  periodic: "Yıllık Bakım ve Gözlem",
-                  generator: "Jeneratör ve Güç Sistemleri Bakımı",
+                  name: "Su Altı ve Su Üstü Bakımları",
+                  explanation:
+                    "Karina temizliği ve Antifouling (Zehirli Boya) uygulamalarıyla birlikte Gövde boya, bakım, pasta/cila ve kaplama uygulamaları",
                 },
-                repair: {
-                  name: "Onarım İşlemleri",
-                  electrical: "Elektronik Kart Onarımı",
-                  engine: "Dizel ve Benzin Motor Onarımı",
-                  hydraulic: "Hidrolik Sistem Onarımı",
-                  inflatable: "Şişme Bot ve Motor Onarımı",
-                  sail: "Yelken Yapımı ve Onarımı",
-                  generator: "Jeneratör ve Güç Sistemleri Onarımı",
+                cleaning: {
+                  name: "Düzenli Yıkama ve Temizlik Hizmetleri",
+                  explanation:
+                    "İstediğiniz anda aplikasyon üzerinden teknenizi bağlı bulunduğu limanda yıkatabilirsiniz. Özel ekipman ve tekniklerimizle kusursuz bir temizlik vadediyoruz",
                 },
-                projects: {
-                  name: "Proje Tasarım ve Montaj",
-                  hydraulic: "Hidrolik Sistem Arge Tasarımı",
-                  electricalDesign: "Elektirik ve Elektronik Proje Tasarımı",
-                  electricalManufacturing:
-                    "Elektrik ve Elektronik Proje İmalat ve Montaj",
-                  hydraulicDesign: "Hidrolık ve Mekanik Proje Tasarımı",
-                  hydraulicManufacturing:
-                    "Hidrolik ve Mekanik Proje İmalat ve Montaj",
+                machineMaintenance: {
+                  name: "Makine Bakım ve Servis",
+                  explanation:
+                    "Motor, jeneratör ve tüm içten yanmalı makinelerinize bakım ve servis hizmeti. VOLVO PENTA, MAN, CUMMINS, CAT, MTU, ONAN, KOHLER marka motorların bakım ve servis hizmetleri, Modifikasyon ve Sistem Yenileme Projeleri",
                 },
-                renovation: {
-                  name: "Yenileme",
-                  hydraulic: "Hidrolik Sistem Yenileme",
-                  modification: "Modifikasyon ve Sistem Yenileme Projeleri",
+                electrical: {
+                  name: "Elektrikli Donanım Bakım ve Servis",
+                  explanation:
+                    "Tüm elektrikli ve elektronik donanımlarınızın bakım, servis, yenileme ve onarım hizmetleri. Tüm sistemlere hakim tecrübeli ve hızlı çözümler",
                 },
-                sales: {
-                  name: "Satış İşlemleri",
-                  teak: "Tik Satış ve Uygulamaları",
+                survey: {
+                  name: "Survey Hizmetleri",
+                  explanation:
+                    "Satın alma öncesi survey, Hasar/kaza maksatlı survey, Seyir öncesi/sonrası survey",
                 },
-                decorationAndPainting: {
-                  name: "Boya Uygulamaları ve Dekorasyon",
-                  interior: "İç Mekan Döşeme Tasarım ve Dekorasyon",
-                  painting: "Boya Uygulamaları",
-                  decoration: "Dekorasyon",
+                osmos: {
+                  name: "Ozmos Tedavileri / Ozmos Center",
+                  explanation:
+                    "Profesyonel ölçüm cihazlarımız ve ekipmanlarımız sayesinde kusursuz tedavi. Akzo Nobel International Osmos center",
+                },
+                teak: {
+                  name: "Krom, TEAK ve Tekstil",
+                  explanation:
+                    "Teknenizin estetik görünümünü sağlayan donanımlarınızı eşsiz tasarımlar, üst kalite malzeme ve kusursuz işçilikle kullanımınıza sunuyoruz",
+                },
+                boatTrade: {
+                  name: "Tekne, Bot Satın Alma ve Kiralama",
+                  explanation:
+                    "İhtiyacınız olan tekneyi ve botu bulmanızda yardımcı oluyoruz. Satın alma ve kiralama işlemlerinizde profesyonel destek",
+                },
+                taxiAndTour: {
+                  name: "Bot Taksi ve Tur Hizmetleri",
+                  explanation:
+                    "Aşağıda yer alan numaradan bize ulaşarak, Göcek ve çevresindeki tüm koylara ulaşım ve tur hizmetlerimizden yararlanabilirsiniz.",
                 },
               },
               misc: {
@@ -222,7 +228,7 @@ $(function () {
                 welcomeTo: "Welcome to Tescomarine",
                 description:
                   "We work meticulously to provide you with the best solutions and make every effort to keep your boat in optimal condition. Whether it's a minor repair, comprehensive maintenance, or painting job, you will experience our expertise and professional approach at every step.",
-                getStarted: "Get Started",
+                getStarted: "Click for Detailed Information",
               },
               site: {
                 home: "Home",
@@ -279,48 +285,55 @@ $(function () {
                   "Project design and installation services for your boats and yachts. Electrical and electronic project design, manufacturing and installation; hydraulic and mechanical project design, manufacturing and installation with system R&D design.",
                 renovationExpShort:
                   "Services related to boat renovation projects and yacht renovation projects. Hydraulic system renewal; modification and system renewal projects.",
+                periodicObservation: {
+                  name: "Periodic Observation",
+                  explanation:
+                    "We keep your boats ready at all times with routine checks. We care about detecting malfunctions when they are small and solving them instantly.",
+                },
                 maintenance: {
-                  name: "Maintenance",
-                  electrical: "Electric and Electronic System Maintenance",
-                  engine: "Diesel and Gasoline Engine Maintenance",
-                  hydraulic: "Hydraulic System Maintenance",
-                  inflatable: "Inflatable Boat and Engine Maintenance",
-                  periodic: "Yearly Maintenance and Observation",
-                  generator: "Generator Maintenance",
+                  name: "Underwater and Above Water Maintenance",
+                  explanation:
+                    "Hull paint, maintenance, polishing / polishing and coating applications with Marina cleaning and Antifouling (Toxic Paint) applications",
                 },
-                repair: {
-                  name: "Repair",
-                  electrical: "Electronic Card Repair",
-                  engine: "Diesel and Gasoline Engine Repair",
-                  hydraulic: "Hydraulic System Repair",
-                  inflatable: "Inflatable Boat and Engine Repair",
-                  sail: "Sail Making and Repair",
-                  generator: "Generator and Power Systems Repair",
+                cleaning: {
+                  name: "Regular Washing and Cleaning Services",
+                  explanation:
+                    "You can wash your boat at any time from the application. We promise a perfect cleaning with our special equipment and techniques.",
                 },
-                projects: {
-                  name: "Projects",
-                  hydraulic: "Hydraulic System R&D Design",
-                  electricalDesign: "Electrical and Electronic Project Design",
-                  electricalManufacturing:
-                    "Electrical and Electronic Project Manufacturing and Installation",
-                  hydraulicDesign: "Hydraulic and Mechanical Project Design",
-                  hydraulicManufacturing:
-                    "Hydraulic and Mechanical Project Manufacturing and Installation",
+                machineMaintenance: {
+                  name: "Machine Maintenance and Service",
+                  explanation:
+                    "Maintenance and servicing for engines, generators, and all internal combustion machines. Maintenance and servicing for VOLVO PENTA, MAN, CUMMINS, CAT, MTU, ONAN, KOHLER brand engines, as well as Modification and System Renewal Projects.",
                 },
-                renovation: {
-                  name: "Renovation",
-                  hydraulic: "Hydraulic System Renovation",
-                  modification: "Modification and System Renovation Projects",
+                electrical: {
+                  name: "Electrical Equipment Maintenance and Service",
+                  explanation:
+                    "Maintenance, service, renewal and repair services for all your electrical and electronic equipment. Experienced and fast solutions to all systems",
                 },
-                sales: {
-                  name: "Sales",
-                  teak: "Teak Deck Sales and Applications",
+                survey: {
+                  name: "Survey Services",
+                  explanation:
+                    "Pre-purchase survey, Damage / accident survey, Pre / post navigation survey",
                 },
-                decorationAndPainting: {
-                  name: "Decoration and Painting",
-                  interior: "Interior Upholstery Design and Decoration",
-                  painting: "Painting",
-                  decoration: "Decoration and Design",
+                osmos: {
+                  name: "Osmosis Treatments / Osmosis Center",
+                  explanation:
+                    "Flawless treatment with our professional measuring devices and equipment. Akzo Nobel International Osmosis center",
+                },
+                teak: {
+                  name: "Chrome, TEAK and Textile",
+                  explanation:
+                    "We offer you your equipment that provides the aesthetic appearance of your boat with unique designs, top quality materials and flawless workmanship.",
+                },
+                boatTrade: {
+                  name: "Boat, Boat Purchase and Rental",
+                  explanation:
+                    "We help you find the boat you need. Professional support for your purchase and rental transactions",
+                },
+                taxiAndTour: {
+                  name: "Boat Taxi and Tour Services",
+                  explanation:
+                    "You can benefit from our transportation and tour services to all bays in Göcek and its surroundings by calling the number below.",
                 },
               },
               misc: {

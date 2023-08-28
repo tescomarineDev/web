@@ -726,9 +726,39 @@ section {
 # Services Section
 --------------------------------------------------------------*/
 .services .service-item {
-  padding: 40px;
+  padding: 0; /* Remove padding from the outer container */
   background: #fff;
+  border-radius: 12px;
+  overflow: hidden; /* Ensure child elements don't overflow */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack child elements vertically */
   height: 100%;
+}
+
+.service-image {
+  flex: 1; /* Take up half of the card's height */
+  overflow: hidden; /* Hide overflow content if the image is larger */
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+.service-text {
+  flex: 1; /* Take up the other half of the card's height */
+  padding: 20px; /* Add padding to the text content */
+}
+
+.service-text h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.service-text p {
+  font-size: 14px;
+  color: #333;
 }
 
 .services .service-item .icon {

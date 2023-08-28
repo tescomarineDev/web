@@ -50,7 +50,7 @@ $(function () {
                 welcomeTo: "Tescomarine'e hoşgeldiniz",
                 description:
                   "Size en iyi çözümleri sunmak için titizlikle çalışıyor ve teknenizin en iyi durumda kalmasını sağlamak için elimizden geleni yapıyoruz. İster küçük bir onarım olsun, ister kapsamlı bir bakım veya boyama işlemi, uzmanlığımızı ve profesyonel yaklaşımımızı her adımda göreceksiniz.",
-                getStarted: "Detaylı Bilgi için Tıkla",
+                getStarted: "Detaylı Bilgi için Tıklayın",
               },
               site: {
                 home: "Ana Sayfa",

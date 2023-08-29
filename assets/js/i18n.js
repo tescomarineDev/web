@@ -50,7 +50,7 @@ $(function () {
                 welcomeTo: "Tescomarine'e hoşgeldiniz",
                 description:
                   "Size en iyi çözümleri sunmak için titizlikle çalışıyor ve teknenizin en iyi durumda kalmasını sağlamak için elimizden geleni yapıyoruz. İster küçük bir onarım olsun, ister kapsamlı bir bakım veya boyama işlemi, uzmanlığımızı ve profesyonel yaklaşımımızı her adımda göreceksiniz.",
-                getStarted: "Detaylı Bilgi için Tıklayın",
+                getStarted: "Detaylı Bilgi",
               },
               site: {
                 home: "Ana Sayfa",
@@ -94,7 +94,7 @@ $(function () {
                 gocekOffice: "Göcek Ofisi",
               },
               services: {
-                services: "Hizmetlerimiz",
+                services: "Tüm Hizmetlerimiz",
                 servicesExpShort:
                   "Tescomarine olarak tekne bakım hizmetleri, tekne onarım hizmetleri, yenileme hizmetleri; proje tasarımı, imalat ve montaj hizmetleri, hidrolik sistem arge tasarımı ve hidrolik sistem bakım hizmetleri ile satış; şişme bot ve motor bakım ve onarımı; dekorasyon ve boya hizmetleri sunmaktayız.",
                 boatJobs: "Tekne ve Yat İşleri",
@@ -157,7 +157,7 @@ $(function () {
                 taxiAndTour: {
                   name: "Bot Taksi ve Tur Hizmetleri",
                   explanation:
-                    "Aşağıda yer alan numaradan bize ulaşarak, Göcek ve çevresindeki tüm koylara ulaşım ve tur hizmetlerimizden yararlanabilirsiniz.",
+                    "Aşağıda yer alan numaradan bize ulaşarak, Göcek ve çevresindeki tüm koylara ulaşım, bot taksi ve tur hizmetlerimizden yararlanabilirsiniz.",
                 },
               },
               misc: {
@@ -228,7 +228,7 @@ $(function () {
                 welcomeTo: "Welcome to Tescomarine",
                 description:
                   "We work meticulously to provide you with the best solutions and make every effort to keep your boat in optimal condition. Whether it's a minor repair, comprehensive maintenance, or painting job, you will experience our expertise and professional approach at every step.",
-                getStarted: "Click for Detailed Information",
+                getStarted: "Detailed Information",
               },
               site: {
                 home: "Home",
@@ -271,7 +271,7 @@ $(function () {
                 gocekOffice: "Göcek Office",
               },
               services: {
-                services: "Services",
+                services: "All Services",
                 servicesExpShort:
                   "As Tescomarine, we offer boat maintenance services, boat repair services, renovation services; project design, manufacturing and installation services, hydraulic system R&D design and hydraulic system maintenance services and sales; inflatable boat and engine maintenance and repair; decoration and painting services.",
                 boatJobs: "Boat and Yacht Jobs",
@@ -333,7 +333,7 @@ $(function () {
                 taxiAndTour: {
                   name: "Boat Taxi and Tour Services",
                   explanation:
-                    "You can benefit from our transportation and tour services to all bays in Göcek and its surroundings by calling the number below.",
+                    "You can benefit from our transportation to all bays in Göcek and its surroundings, boat taxi and tour services by calling the number below.",
                 },
               },
               misc: {

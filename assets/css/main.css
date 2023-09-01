@@ -739,11 +739,12 @@ section {
   display: flex; /* Use flexbox for layout */
   flex-direction: column; /* Stack child elements vertically */
   height: 100%;
+  box-shadow: 0px 0px 12px #ddd;
 }
 
 .service-item:hover {
   transform: box-shadow 1s ease-in-out;
-  box-shadow: 0px 0px 12px #ddd;
+  box-shadow: 0px 0px 12px #aaaaaa;
 }
 
 .service-image {

@@ -56,6 +56,7 @@ $(function () {
                 home: "Ana Sayfa",
                 about: "Hakkımızda",
                 services: "Hizmetler ve Ürünler",
+                boats: "Botlar",
                 projects: "Projeler",
                 blog: "Blog",
                 contact: "İletişim",
@@ -63,6 +64,7 @@ $(function () {
                 homeNav: "ANA SAYFA",
                 aboutNav: "HAKKIMIZDA",
                 servicesNav: "HİZMETLER ve ÜRÜNLER",
+                boatsNav: "BOTLAR",
                 projectsNav: "PROJELER",
                 blogNav: "BLOG",
                 contactNav: "İLETİŞİM",
@@ -164,6 +166,7 @@ $(function () {
                 loading: "Yükleniyor...",
                 send: "Gönder",
               },
+
               promotion: {
                 title: ">Profesyonel, Kaliteli ve Güvenli",
                 intro:
@@ -180,6 +183,12 @@ $(function () {
                 customerSatisfaction: "Müşteri Memnuniyeti",
                 customerSatisfactionExp:
                   "Müşterilerimizin beklentilerini aşmak ve en iyi hizmeti sunmak için çalışırız. Müşteri memnuniyeti her zaman önceliğimizdir.",
+              },
+              boatsPage: {
+                header: "Bot Satışı ve Kiralama",
+                explanation:
+                  "Tescomarine, Ranieri©'nin güçlü desteği ile tekne satın almak veya kiralamak isteyenler için pratik ve güvenilir bir seçenek sunar, denizcilik tutkunlarına denizlerin keyfini sürme fırsatı verir.",
+                tenderSport: "Tender - Sport",
               },
               blog: {
                 title: "Blog Yazıları",
@@ -234,6 +243,7 @@ $(function () {
                 home: "Home",
                 about: "About",
                 services: "Services and Products",
+                boats: "Boats",
                 projects: "Projects",
                 blog: "Blog",
                 contact: "Contact",
@@ -241,6 +251,7 @@ $(function () {
                 homeNav: "HOME",
                 aboutNav: "ABOUT",
                 servicesNav: "SERVICES and PRODUCTS",
+                boatsNav: "BOATS",
                 projectsNav: "PROJECTS",
                 blogNav: "BLOG",
                 contactNav: "CONTACT",

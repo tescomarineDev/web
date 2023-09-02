@@ -288,24 +288,6 @@ section {
   position: relative;
 }
 
-/* Hover Text Styles */
-.hover-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 10px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.boat-image:hover .hover-text {
-  opacity: 1;
-}
-
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/

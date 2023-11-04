@@ -188,7 +188,12 @@ $(function () {
                 header: "Bot Satışı ve Kiralama",
                 explanation:
                   "Tescomarine, Ranieri©'nin güçlü desteği ile tekne satın almak veya kiralamak isteyenler için pratik ve güvenilir bir seçenek sunar, denizcilik tutkunlarına denizlerin keyfini sürme fırsatı verir.",
-                tenderSport: "Tender - Sport",
+                boatCatalog: "Bot Kataloğu",
+                length: "Uzunluk",
+                beamLength: "Genişlik",
+                personLimit: "Kişi Limiti",
+                weight: "Ağırlık",
+                minMaxHp: "Min-Max HP",
               },
               blog: {
                 title: "Blog Yazıları",
@@ -367,6 +372,72 @@ $(function () {
                 customerSatisfaction: "Customer Satisfaction",
                 customerSatisfactionExp:
                   "We work to exceed our customers' expectations and provide the best service. Customer satisfaction is always our priority.",
+              },
+              boatsPage: {
+                header: "Boat Sales and Rental",
+                explanation:
+                  "Tescomarine, with the strong support of Ranieri©, offers a practical and reliable option for those who want to buy or rent a boat, and gives sea lovers the opportunity to enjoy the sea.",
+                boatCatalog: "Boat Catalog",
+
+                genericDescription:
+                  "Set sail on your next adventure with the pinnacle of elegance, performance, and safety, distributed by Renieri©'s trusted local partner.",
+
+                lengthDaytona: "Length: 5m",
+                beamLengthDaytona: "Beam Length: 2.10m",
+                personLimitDaytona: "Person Limit: 7",
+                weightDaytona: "Weight: 115kg",
+
+                lengthEvo25: "Length: 7.5m",
+                beamLengthEvo25: "Beam Length: 2.50m",
+                personLimitEvo25: "Person Limit: 10",
+                weightEvo25: "Weight: 1.500kg",
+                fuelTankEvo25: "Fuel tank: 240ltr",
+
+                lengthGiubileo: "Length: 6m",
+                beamLengthGiubileo: "Beam Length: 2.38m",
+                personLimitGiubileo: "Person Limit: 10",
+                weightGiubileo: "Weight: 600kg",
+                fuelTankGiubileo: "Fuel tank: 100ltr",
+
+                lengthR32: "Length: 9.6m",
+                beamLengthR32: "Beam Length: 3m",
+                personLimitR32: "Person Limit: 14",
+                weightR32: "Weight: 2700kg",
+                fuelTankR32: "Fuel tank: 1000ltr",
+                waterCapacityR32: "Water capacity: 130ltr",
+
+                lengthRenegade: "Length: 6m",
+                beamLengthRenegade: "Beam Length: 2.25m",
+                personLimitRenegade: "Person Limit: 7",
+                weightRenegade: "Weight: 640kg",
+                fuelTankRenegade: "Fuel tank: 105ltr",
+                waterCapacityRenegade: "Water capacity: 65ltr",
+
+                lengthS44: "Length: 12.5m",
+                beamLengthS44: "Beam Length: 4m",
+                personLimitS44: "Person Limit: 12",
+                weightS44: "Weight: 10.000kg",
+                fuelTankS44: "Fuel tank: 240ltr",
+                waterCapacityS44: "Water capacity: 250ltr",
+                minMaxHpS44: "Max HP: 2x450",
+
+                lengthShark19: "Length: 5.45m",
+                beamLengthShark19: "Beam Length: 2.12m",
+                personLimitShark19: "Person Limit: 7",
+                weightShark19: "Weight: 500kg",
+                fuelTankShark19: "Fuel tank: 55ltr",
+                waterCapacityShark19: "Water capacity: 50ltr",
+                minMaxHpShark19: "Max HP: 128",
+
+                lengthSoverato545: "Length: 5.45m",
+                beamLengthSoverato545: "Beam Length: 2.12m",
+                personLimitSoverato545: "Person Limit: 7",
+                weightSoverato545: "Weight: 520kg",
+                fuelTankSoverato545: "Fuel tank: 70ltr",
+                waterCapacitySoverato545: "Water capacity: 50ltr",
+                minMaxHpSoverato545: "Max HP: 128",
+
+                minMaxHp: "Min-Max HP",
               },
               blog: {
                 title: "Blog Posts",

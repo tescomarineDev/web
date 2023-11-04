@@ -1,0 +1,130 @@
+daytona
+
+Boat model:	Ranieri Mito 500
+Manufacturer:	Ranieri International
+Boat type:	powerboat
+Boat category:	motorboat hull
+Category:	new boat
+Persons:	7
+Hull material:	GRP/polyester
+Hull kind:	planing boat
+ 	
+Length:	5 m (16.4 feet)
+Beam:	2.10 m
+Weight:	ca. 115 kg
+
+
+evo-25
+
+Boat model:	Ranieri Evo25 (New)
+Manufacturer:	Ranieri International
+Boat type:	powerboat
+Boat category:	motor cabin boat
+Category:	new boat
+Persons:	10
+Cabins / berths:	1 / 2
+Hull material:	GRP/polyester
+Hull kind:	planing boat
+Hull colour:	white
+ 	
+Length:	7.50 m (24.6 feet)
+Beam:	2.50 m
+Weight:	ca. 1,500 kg
+Showers:	1
+No. of toilets:	1
+ 	
+Engine:	no engine
+Fuel tank:	240 ltr
+Fresh water tank:	90 ltr
+
+
+giubileo
+
+Boat model:	Ranieri Giubileo
+Manufacturer:	Ranieri International
+Boat type:	powerboat
+Boat category:	sports boat
+Category:	new boat
+Year built:	2023
+Location:	Italy, Gardasee
+Flag:	Italy
+Persons:	10
+Hull material:	GRP/polyester
+Hull kind:	planing boat
+ 	
+Length:	6 m (19.7 feet)
+Beam:	2.38 m
+Weight:	ca. 600 kg
+ 	
+Engine:	no engine
+Fuel tank:	100 ltr
+
+
+r-32
+
+
+length:	 9,60m
+width:	3,00m
+Max Hp:	Hp. 700
+Weight:	Kg. 2700
+Beds:	No. 0
+Capacity of people:	No. 14
+Fuel Tank:	Lt. 1000
+Water:	Lt. 130
+
+
+ranege
+
+
+
+
+renegade
+
+length:	MT. 6,00
+width:	MT 2.25
+Max Hp:	Hp. 150
+Weight:	Kg. 640
+Capacity of people:	No. 07
+Fuel Tank:	Lt. 105
+Water:	Lt. 65
+
+
+s-44-hardtop
+
+length:	MT. 12,50
+width:	MT 4,00
+Max Hp:	Hp. 2x450
+Weight:	Kg. 10.000
+Capacity of people:	No. 12
+Reservoir:	Lt. 240
+Water:	Lt. 250
+Cabins:	No. 2
+Immersion	0,70
+Motorization:	2xEFB
+
+
+
+
+shark-19
+
+length:	MT. 5,45
+width:	MT 2:12
+Max Hp:	Hp. 128
+Weight:	Kg. 500
+Capacity of people:	No. 07
+Reservoir:	Lt. 55
+Water:	Lt. 50
+
+
+
+
+soverato-545
+
+length:	MT. 5,45
+width:	MT 2:12
+Max Hp:	Hp. 128
+Weight:	Kg. 520
+Capacity of people:	No. 07
+Reservoir:	Lt. 70
+Water:	Lt. 50
+

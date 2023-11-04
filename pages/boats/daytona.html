@@ -119,7 +119,7 @@
             <p data-i18n="boatsPage.genericDescription"></p>
             <!-- Carousel section -->
             <!-- ======= Hero Section ======= -->
-            <section id="hero" class="hero pt-5 pb-5">
+            <section id="hero" class="hero pt-5">
               <div
                 id="hero-carousel"
                 class="carousel slide"
@@ -129,37 +129,19 @@
                 <div
                   class="carousel-item active"
                   style="
-                    background-image: url(assets/img/hero-carousel/background.jpg);
-                  "
-                ></div>
-                <div
-                  class="carousel-item active"
-                  style="
-                    background-image: url(assets/img/hero-carousel/hero-carousel-1tm.jpg);
+                    background-image: url(../../assets/img/boats/daytona/daytona_1.jpeg);
                   "
                 ></div>
                 <div
                   class="carousel-item"
                   style="
-                    background-image: url(assets/img/hero-carousel/hero-carousel-2tm.jpg);
+                    background-image: url(../../assets/img/boats/daytona/daytona_2.jpeg);
                   "
                 ></div>
                 <div
                   class="carousel-item"
                   style="
-                    background-image: url(assets/img/hero-carousel/hero-carousel-3tm.jpg);
-                  "
-                ></div>
-                <div
-                  class="carousel-item"
-                  style="
-                    background-image: url(assets/img/hero-carousel/hero-carousel-4tm.jpg);
-                  "
-                ></div>
-                <div
-                  class="carousel-item"
-                  style="
-                    background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg);
+                    background-image: url(../../assets/img/boats/daytona/daytona_3.jpeg);
                   "
                 ></div>
 
@@ -193,60 +175,325 @@
             <!-- Carousel section -->
           </div>
         </div>
+
         <!-- Boat Details -->
         <div class="container" data-aos="fade-up">
-          <div class="row gy-4">
-            <!-- Start Card Item -->
-            <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-              <div class="card-item">
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4
-                      class="card-title"
-                      data-i18n="services.maintenance.name"
-                    ></h4>
-                    <p data-i18n="services.maintenance.explanation"></p>
+          <div class="row gy-4 d-flex justify-content-between">
+            <div class="col" data-aos="fade-up" data-aos-delay="200">
+              <div class="boat-details">
+                <div class="row">
+                  <h2 class="pb-1" data-i18n="boatsPage.specification"></h2>
+                  <div class="col">
+                    <li data-i18n="boatsPage.lengthDaytona"></li>
+                  </div>
+                  <div class="col">
+                    <li data-i18n="boatsPage.beamLengthDaytona"></li>
+                  </div>
+                  <div class="col">
+                    <li data-i18n="boatsPage.personLimitDaytona"></li>
+                  </div>
+                  <div class="col">
+                    <li data-i18n="boatsPage.weightDaytona"></li>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- End Card Item -->
-            <!-- Start Card Item -->
-            <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-              <div class="card-item">
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4
-                      class="card-title"
-                      data-i18n="services.maintenance.name"
-                    ></h4>
-                    <p data-i18n="services.maintenance.explanation"></p>
+          </div>
+        </div>
+        <!-- Boat Details -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+          <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row gy-4">
+              <div class="col-lg-6">
+                <div
+                  class="info-item d-flex flex-column justify-content-center align-items-center"
+                >
+                  <i class="bi bi-map"></i>
+                  <!-- <h3 data-i18n="contact.ourAddress"></h3> -->
+                  <strong><p data-i18n="contact.mainOffice"></p></strong>
+                  <p>
+                    Merkez, Kemerburgaz Cad, Buse Sk. No:10 D:2, 34406
+                    Kâğıthane/İstanbul
+                  </p>
+                  <strong><p data-i18n="contact.gocekOffice"></p></strong>
+                  <p>Göcek mah. Turgut Özal GCK caddesi no:3/1 Fethiye Muğla</p>
+                </div>
+              </div>
+              <!-- End Info Item -->
+
+              <div class="col-lg-3 col-md-6">
+                <div
+                  class="info-item d-flex flex-column justify-content-center align-items-center"
+                >
+                  <i class="bi bi-envelope"></i>
+                  <h3 data-i18n="contact.email"></h3>
+                  <a href="mailto:info@tescomarine.com">
+                    info@tescomarine.com</a
+                  >
+                </div>
+              </div>
+              <!-- End Info Item -->
+
+              <div class="col-lg-3 col-md-6">
+                <div
+                  class="info-item d-flex flex-column justify-content-center align-items-center"
+                >
+                  <i class="bi bi-telephone"></i>
+                  <h3 data-i18n="contact.callUs"></h3>
+                  <a href="tel:+90 (532) 440 95 80">+90 (532) 440 95 80</a>
+                </div>
+              </div>
+              <!-- End Info Item -->
+              <div class="d-flex align-items-center justify-content-center">
+                <form
+                  action="../forms/contact.php"
+                  method="post"
+                  role="form"
+                  class="php-email-form"
+                >
+                  <div class="row gy-4">
+                    <div class="col-lg-6 form-group">
+                      <input
+                        id="nameInp"
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        id="name"
+                        placeholder="İsim"
+                        required
+                      />
+                    </div>
+                    <div class="col-lg-6 form-group">
+                      <input
+                        id="emailInp"
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="E-posta"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      id="phoneInp"
+                      type="text"
+                      class="form-control"
+                      name="phone"
+                      id="phone"
+                      placeholder="Telefon"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      id="subjectInp"
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      id="subject"
+                      placeholder="Konu"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      id="messageInp"
+                      class="form-control"
+                      name="message"
+                      rows="5"
+                      placeholder="Mesajınız"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading" data-i18n="misc.loading"></div>
+                    <div
+                      class="error-message"
+                      data-i18n="contact.errorSending"
+                    ></div>
+                    <div
+                      class="sent-message"
+                      data-i18n="contact.tyForSending"
+                    ></div>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" data-i18n="misc.send"></button>
+                  </div>
+                </form>
+              </div>
+              <!-- End Contact Form -->
+            </div>
+
+            <div class="row gy-4 mt-1">
+              <!-- <div class="col-lg-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12028.897971946406!2d28.9711477!3d41.0859414!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7eb4e40172b%3A0xa7509f91db8992e6!2sTesco%20Marin!5e0!3m2!1sen!2str!4v1689466664818!5m2!1sen!2str"
+                width="550"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div> -->
+              <!-- End Google Maps -->
+            </div>
+          </div>
+        </section>
+        <!-- End Contact Section -->
+      </section>
+      <!-- ======= Boat Details Section ======= -->
+
+      <!-- ======= Footer ======= -->
+      <footer id="footer" class="footer">
+        <div class="footer-content position-relative">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="footer-info">
+                  <!-- <h3>Tescomarine</h3> -->
+                  <!-- <a href="index.html" class="logo d-flex align-items-center">
+                        <img
+                          height="60px"
+                          style="padding-bottom: 10px"
+                          src="assets/img/horizontal_logo.png"
+                          alt=""
+                        />
+                      </a> -->
+                  <p>
+                    <strong data-i18n="contact.mainOffice"></strong>: Merkez,
+                    Kemerburgaz Cad, Buse Sk. No:10 D:2, 34406
+                    Kâğıthane/İstanbul <br /><br />
+                    <strong data-i18n="contact.gocekOffice"></strong>: Göcek
+                    mah. Turgut Özal GCK caddesi no:3/1 Fethiye Muğla
+                    <br /><br />
+                    <strong data-i18n="footer.phone"> </strong>:
+                    <a href="tel:+90 (532) 440 95 80">+90 (532) 440 95 80</a
+                    ><br />
+                    <strong data-i18n="footer.email"> </strong>:
+                    <a href="mailto:info@tescomarine.com">
+                      info@tescomarine.com</a
+                    >
+                  </p>
+                  <div class="social-links d-flex mt-3">
+                    <!-- <a
+                          href="#"
+                          class="d-flex align-items-center justify-content-center"
+                          ><i class="bi bi-twitter"></i
+                        ></a> -->
+                    <a
+                      href="https://www.facebook.com/proeventorganizations"
+                      target="_blank"
+                      class="d-flex align-items-center justify-content-center"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a
+                      href="https://instagram.com/tescomarine?igshid=MzRlODBiNWFlZA=="
+                      target="_blank"
+                      class="d-flex align-items-center justify-content-center"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <!-- <a
+                          href="#"
+                          class="d-flex align-items-center justify-content-center"
+                          ><i class="bi bi-linkedin"></i
+                        ></a> -->
                   </div>
                 </div>
               </div>
-            </div>
-            <!-- End Card Item -->
-            <!-- Start Card Item -->
-            <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
-              <div class="card-item">
-                <div class="col-xl-7 d-flex align-items-center">
-                  <div class="card-body">
-                    <h4
-                      class="card-title"
-                      data-i18n="services.maintenance.name"
-                    ></h4>
-                    <p data-i18n="services.maintenance.explanation"></p>
-                  </div>
-                </div>
+              <!-- End footer info column-->
+
+              <div class="col-lg-2 col-md-3 footer-links">
+                <h4 data-i18n="footer.usefulLinks"></h4>
+                <ul>
+                  <li><a href="../../index.html" data-i18n="site.home"></a></li>
+                  <!-- <li>
+                        <a href="./about.html" data-i18n="site.about"></a>
+                      </li> -->
+                  <li>
+                    <a
+                      href="../../pages/services.html"
+                      data-i18n="site.services"
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="../../pages/boats.html" data-i18n="site.boats"></a>
+                  </li>
+                  <!-- <li><a href="#">Projeler</a></li> -->
+                  <!-- <li><a href="#">Blog</a></li> -->
+                  <li>
+                    <a
+                      href="../../pages/contact.html"
+                      data-i18n="site.contact"
+                    ></a>
+                  </li>
+                </ul>
               </div>
+              <!-- End footer links column-->
+
+              <div class="col-lg-4 col-md-8 footer-links">
+                <h4 data-i18n="site.services"></h4>
+                <ul class="grayed-out">
+                  <li data-i18n="services.periodicObservation.name"></li>
+                  <li data-i18n="services.maintenance.name"></li>
+                  <li data-i18n="services.cleaning.name"></li>
+                </ul>
+                <ul class="grayed-out">
+                  <li data-i18n="services.machineMaintenance.name"></li>
+                  <li data-i18n="services.electrical.name"></li>
+                  <li data-i18n="services.survey.name"></li>
+                </ul>
+                <ul class="grayed-out">
+                  <li data-i18n="services.osmos.name"></li>
+                  <li data-i18n="services.teak.name"></li>
+                  <li data-i18n="services.boatTrade.name"></li>
+                  <li data-i18n="services.taxiAndTour.name"></li>
+                </ul>
+              </div>
+
+              <!-- End footer links column-->
+
+              <!-- <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Hic solutasetp</h4>
+                    <ul>
+                      <li><a href="#">Molestiae accusamus iure</a></li>
+                      <li><a href="#">Excepturi dignissimos</a></li>
+                      <li><a href="#">Suscipit distinctio</a></li>
+                      <li><a href="#">Dilecta</a></li>
+                      <li><a href="#">Sit quas consectetur</a></li>
+                    </ul>
+                  </div> -->
+              <!-- End footer links column-->
+
+              <!-- <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Nobis illum</h4>
+                    <ul>
+                      <li><a href="#">Ipsam</a></li>
+                      <li><a href="#">Laudantium dolorum</a></li>
+                      <li><a href="#">Dinera</a></li>
+                      <li><a href="#">Trodelas</a></li>
+                      <li><a href="#">Flexo</a></li>
+                    </ul>
+                  </div> -->
+              <!-- End footer links column-->
             </div>
-            <!-- End Card Item -->
           </div>
         </div>
 
-        <!-- Boat Details -->
-      </section>
-      <!-- ======= Boat Details Section ======= -->
+        <div class="footer-legal text-center position-relative">
+          <div class="container">
+            <div class="copyright">
+              <strong><span>Tescomarine</span></strong> ©
+              <span data-i18n="footer.copyright"></span>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer -->
     </main>
 
     <!-- Vendor JS Files -->
@@ -267,6 +514,5 @@
     <!-- Local JS Files -->
     <script src="../../assets/js/i18n.js"></script>
     <script src="../../assets/js/main.js"></script>
-    <script src="../../assets/js/boat.js"></script>
   </body>
 </html>

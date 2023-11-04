@@ -185,15 +185,72 @@ $(function () {
                   "Müşterilerimizin beklentilerini aşmak ve en iyi hizmeti sunmak için çalışırız. Müşteri memnuniyeti her zaman önceliğimizdir.",
               },
               boatsPage: {
-                header: "Bot Satışı ve Kiralama",
+                header: "Tekne Satış ve Kiralama",
                 explanation:
-                  "Tescomarine, Ranieri©'nin güçlü desteği ile tekne satın almak veya kiralamak isteyenler için pratik ve güvenilir bir seçenek sunar, denizcilik tutkunlarına denizlerin keyfini sürme fırsatı verir.",
-                boatCatalog: "Bot Kataloğu",
-                length: "Uzunluk",
-                beamLength: "Genişlik",
-                personLimit: "Kişi Limiti",
-                weight: "Ağırlık",
-                minMaxHp: "Min-Max HP",
+                  "Tescomarine, Ranieri©'nin güçlü desteğiyle, tekne satın almak veya kiralamak isteyenler için pratik ve güvenilir bir seçenek sunuyor ve deniz severlere denizin tadını çıkarma fırsatı veriyor.",
+                boatCatalog: "Tekne Kataloğu",
+
+                genericDescription:
+                  "Kalite, performans ve güvenliğin zirvesindeki bu tekne ile bir sonraki maceranıza yelken açın. Renieri©'nin güvenilir yerel ortağı tarafından dağıtılmaktadır.",
+
+                specification: "Teknik Özellikler",
+
+                lengthDaytona: "Uzunluk: 5m",
+                beamLengthDaytona: "Kiriş Uzunluğu: 2.10m",
+                personLimitDaytona: "Kişi Sayısı: 7",
+                weightDaytona: "Ağırlık: 115kg",
+
+                lengthEvo25: "Uzunluk: 7.5m",
+                beamLengthEvo25: "Kiriş Uzunluğu: 2.50m",
+                personLimitEvo25: "Kişi Sayısı: 10",
+                weightEvo25: "Ağırlık: 1.500kg",
+                fuelTankEvo25: "Yakıt Deposu: 240ltr",
+
+                lengthGiubileo: "Uzunluk: 6m",
+                beamLengthGiubileo: "Kiriş Uzunluğu: 2.38m",
+                personLimitGiubileo: "Kişi Sayısı: 10",
+                weightGiubileo: "Ağırlık: 600kg",
+                fuelTankGiubileo: "Yakıt Deposu: 100ltr",
+
+                lengthR32: "Uzunluk: 9.6m",
+                beamLengthR32: "Kiriş Uzunluğu: 3m",
+                personLimitR32: "Kişi Sayısı: 14",
+                weightR32: "Ağırlık: 2700kg",
+                fuelTankR32: "Yakıt Deposu: 1000ltr",
+                waterCapacityR32: "Su kapasitesi: 130ltr",
+
+                lengthRenegade: "Uzunluk: 6m",
+                beamLengthRenegade: "Kiriş Uzunluğu: 2.25m",
+                personLimitRenegade: "Kişi Sayısı: 7",
+                weightRenegade: "Ağırlık: 640kg",
+                fuelTankRenegade: "Yakıt Deposu: 105ltr",
+                waterCapacityRenegade: "Su kapasitesi: 65ltr",
+
+                lengthS44: "Uzunluk: 12.5m",
+                beamLengthS44: "Kiriş Uzunluğu: 4m",
+                personLimitS44: "Kişi Sayısı: 12",
+                weightS44: "Ağırlık: 10.000kg",
+                fuelTankS44: "Yakıt Deposu: 240ltr",
+                waterCapacityS44: "Su kapasitesi: 250ltr",
+                minMaxHpS44: "Motor Gücü: 2x450",
+
+                lengthShark19: "Uzunluk: 5.45m",
+                beamLengthShark19: "Kiriş Uzunluğu: 2.12m",
+                personLimitShark19: "Kişi Sayısı: 7",
+                weightShark19: "Ağırlık: 500kg",
+                fuelTankShark19: "Yakıt Deposu: 55ltr",
+                waterCapacityShark19: "Su kapasitesi: 50ltr",
+                minMaxHpShark19: "Motor Gücü: 128",
+
+                lengthSoverato545: "Uzunluk: 5.45m",
+                beamLengthSoverato545: "Kiriş Uzunluğu: 2.12m",
+                personLimitSoverato545: "Kişi Sayısı: 7",
+                weightSoverato545: "Ağırlık: 520kg",
+                fuelTankSoverato545: "Yakıt Deposu: 70ltr",
+                waterCapacitySoverato545: "Su kapasitesi: 50ltr",
+                minMaxHpSoverato545: "Motor Gücü: 128",
+
+                minMaxHp: "Min-Maks Motor Gücü",
               },
               blog: {
                 title: "Blog Yazıları",
@@ -381,6 +438,8 @@ $(function () {
 
                 genericDescription:
                   "Set sail on your next adventure with the pinnacle of elegance, performance, and safety, distributed by Renieri©'s trusted local partner.",
+
+                specification: "Specifications",
 
                 lengthDaytona: "Length: 5m",
                 beamLengthDaytona: "Beam Length: 2.10m",

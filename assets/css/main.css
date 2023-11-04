@@ -2216,6 +2216,33 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Boat Details Section
+--------------------------------------------------------------*/
+
+.boat-details .boat-detail-card {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: -5px 5px 10px 2px rgba(0, 0, 0, 0.25);
+  height: 70px;
+  flex-shrink: 0;
+  padding: 5px 20px 5px 20px;
+}
+
+.boat-details .get-quota-button {
+  border-radius: 60px;
+  background: linear-gradient(
+    263deg,
+    #3569a6 7.27%,
+    #824aba 47.11%,
+    #6295d1 92.89%
+  );
+  width: auto;
+  padding: 10px 20px 10px 20px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+/*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
 .blog .blog-pagination {
